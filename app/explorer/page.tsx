@@ -19,25 +19,73 @@ import Fuse from 'fuse.js';
 
 export default function ExplorerPage() {
   const allGCCs = useMemo(() => getAllGCCs(), []);
+  const [viewMode, setViewMode] = useState<'entity' | 'site'>('entity');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCity, setSelectedCity] = useState('All');
   const [selectedSector, setSelectedSector] = useState('All');
   const [selectedCountry, setSelectedCountry] = useState('All');
   const [selectedRecordId, setSelectedRecordId] = useState<string | null>(null);
 
-  const cities = useMemo(() => ['All', ...Array.from(new Set(allGCCs.map((g) => g.city)))], [allGCCs]);
-  const sectors = useMemo(() => ['All', ...Array.from(new Set(allGCCs.map((g) => g.parentSector)))], [allGCCs]);
-  const countries = useMemo(() => ['All', ...Array.from(new Set(allGCCs.map((g) => g.parentCountry)))], [allGCCs]);
+  // Normalised 8-sector taxonomy
+  const standardSectors = [
+    'All',
+    'Technology',
+    'BFSI',
+    'Healthcare/Life Sciences',
+    'Automotive/ER&D',
+    'Manufacturing/ER&D',
+    'Retail/CPG',
+    'Semiconductors',
+    'Professional Services'
+  ];
 
-  const fuse = useMemo(() => {
-    return new Fuse(allGCCs, {
-      keys: ['name', 'parentCompany', 'city', 'parentSector', 'functions'],
-      threshold: 0.3,
+  // Flattened site-level view items
+  const allSites = useMemo(() => {
+    const list: any[] = [];
+    allGCCs.forEach((g) => {
+      if (g.campuses && g.campuses.length > 0) {
+        g.campuses.forEach((c) => {
+          list.push({
+            id: `${g.id}_site_${c.city.toLowerCase()}`,
+            parentEntityId: g.id,
+            name: c.centerName || `${g.name} (${c.city})`,
+            parentCompany: g.parentCompany,
+            parentCountry: g.parentCountry,
+            parentSector: g.parentSector,
+            city: c.city,
+            state: c.state,
+            microMarket: c.microMarket,
+            headcountBand: g.headcountBand,
+            yearEstablished: g.yearEstablished,
+            functions: g.functions,
+            operatingModel: g.operatingModel,
+            sources: g.sources,
+            confidence: g.confidence,
+            campuses: [c],
+            totalUnitsInIndia: g.totalUnitsInIndia,
+          });
+        });
+      } else {
+        list.push(g);
+      }
     });
+    return list;
   }, [allGCCs]);
 
+  const activeDataset = viewMode === 'entity' ? allGCCs : allSites;
+
+  const cities = useMemo(() => ['All', ...Array.from(new Set(activeDataset.map((g) => g.city)))], [activeDataset]);
+  const countries = useMemo(() => ['All', ...Array.from(new Set(activeDataset.map((g) => g.parentCountry)))], [activeDataset]);
+
+  const fuse = useMemo(() => {
+    return new Fuse(activeDataset, {
+      keys: ['name', 'parentCompany', 'city', 'parentSector', 'functions', 'microMarket'],
+      threshold: 0.3,
+    });
+  }, [activeDataset]);
+
   const filteredGCCs = useMemo(() => {
-    let result = allGCCs;
+    let result = activeDataset;
 
     if (searchQuery.trim()) {
       result = fuse.search(searchQuery).map((r) => r.item);
@@ -56,11 +104,11 @@ export default function ExplorerPage() {
     }
 
     return result;
-  }, [allGCCs, searchQuery, selectedCity, selectedSector, selectedCountry, fuse]);
+  }, [activeDataset, searchQuery, selectedCity, selectedSector, selectedCountry, fuse]);
 
   const activeRecord = useMemo(() => {
-    return allGCCs.find((g) => g.id === selectedRecordId) || filteredGCCs[0] || null;
-  }, [allGCCs, selectedRecordId, filteredGCCs]);
+    return activeDataset.find((g) => g.id === selectedRecordId) || filteredGCCs[0] || null;
+  }, [activeDataset, selectedRecordId, filteredGCCs]);
 
   return (
     <div className="space-y-8">
@@ -76,6 +124,41 @@ export default function ExplorerPage() {
         <p className="text-sm text-[#5E646A] max-w-3xl leading-relaxed">
           Comprehensive directory of confirmed Global Capability Centres operating across India, cross-verified with Ministry of Corporate Affairs (MCA) filings and official corporate disclosures.
         </p>
+      </div>
+
+      {/* View Mode Toggle Strip: Entity vs Site */}
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 bg-white border border-[#E8E5DE] rounded-xl shadow-xs">
+        <div className="space-y-0.5">
+          <span className="text-xs font-bold text-[#14171A]">Granularity Resolution</span>
+          <p className="text-[11px] text-[#5E646A]">
+            Toggle between parent legal entities (30 profiled) and distinct city campuses (33 physical sites).
+          </p>
+        </div>
+
+        <div className="inline-flex rounded-lg border border-[#DCD7CE] p-1 bg-[#FDFBF7]">
+          <button
+            type="button"
+            onClick={() => setViewMode('entity')}
+            className={`px-3.5 py-1.5 rounded-md text-xs font-semibold transition ${
+              viewMode === 'entity'
+                ? 'bg-[#16423C] text-white shadow-xs'
+                : 'text-[#5E646A] hover:text-[#14171A]'
+            }`}
+          >
+            Parent Entities ({allGCCs.length})
+          </button>
+          <button
+            type="button"
+            onClick={() => setViewMode('site')}
+            className={`px-3.5 py-1.5 rounded-md text-xs font-semibold transition ${
+              viewMode === 'site'
+                ? 'bg-[#16423C] text-white shadow-xs'
+                : 'text-[#5E646A] hover:text-[#14171A]'
+            }`}
+          >
+            Physical Sites ({allSites.length})
+          </button>
+        </div>
       </div>
 
       {/* Rippling Filter Bar */}
@@ -109,7 +192,7 @@ export default function ExplorerPage() {
             onChange={(e) => setSelectedSector(e.target.value)}
             className="w-full bg-[#FDFBF7] border border-[#DCD7CE] rounded-lg px-3 py-2 text-xs text-[#4A5056] focus:outline-none focus:border-[#16423C] transition"
           >
-            {sectors.map((s) => (
+            {standardSectors.map((s) => (
               <option key={s} value={s}>Sector: {s}</option>
             ))}
           </select>
@@ -174,7 +257,7 @@ export default function ExplorerPage() {
                     </div>
 
                     <div className="flex flex-wrap gap-1 mt-0.5">
-                      {item.functions.map((fn) => (
+                      {item.functions.map((fn: string) => (
                         <span
                           key={fn}
                           className="px-2 py-0.5 rounded bg-[#F0EDE6] text-[10px] text-[#4A5056] font-medium"
@@ -217,7 +300,7 @@ export default function ExplorerPage() {
                 </div>
                 <div>
                   <span className="text-[#8B929A] block text-[10px] uppercase">Campus Centers</span>
-                  <span className="text-[#14171A] font-semibold">{activeRecord.campuses.map(c => `${c.city} (${c.microMarket})`).join(' • ')}</span>
+                  <span className="text-[#14171A] font-semibold">{activeRecord.campuses.map((c: any) => `${c.city} (${c.microMarket})`).join(' • ')}</span>
                 </div>
                 <div>
                   <span className="text-[#8B929A] block text-[10px] uppercase">Operating Model</span>
@@ -235,7 +318,7 @@ export default function ExplorerPage() {
                   Core Capabilities & Mandates
                 </span>
                 <div className="flex flex-wrap gap-1.5">
-                  {activeRecord.functions.map((fn) => (
+                  {activeRecord.functions.map((fn: string) => (
                     <span
                       key={fn}
                       className="px-2.5 py-1 rounded-md bg-[#F0EDE6] text-xs text-[#4A5056] font-medium"

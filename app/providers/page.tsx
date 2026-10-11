@@ -66,7 +66,7 @@ export default function ProvidersPage() {
               </div>
 
               <div className="p-3.5 bg-[#F7F5F0] border border-[#E8E5DE] rounded-lg space-y-1">
-                <span className="text-[#8B929A] font-mono text-[10px] uppercase block">Audited Commercial Structure</span>
+                <span className="text-[#8B929A] font-mono text-[10px] uppercase block">Publicly Documented Commercial Terms</span>
                 <span className="text-[#14171A] font-medium leading-relaxed block">{p.pricingModel}</span>
               </div>
             </div>

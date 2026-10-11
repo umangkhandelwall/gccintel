@@ -78,10 +78,20 @@ export default function MethodologyPage() {
             <div className="p-3 bg-[#FFF8E1] border border-[#FFE082] rounded-lg">
               <div className="font-bold text-[#F57F17] flex items-center gap-1.5 text-xs mb-1">
                 <AlertTriangle className="w-3.5 h-3.5" />
-                <span>Audited (Medium Confidence)</span>
+                <span>Audited / Publicly Documented (Medium Confidence)</span>
               </div>
               <p className="text-[#E65100]">
                 Sourced from credible secondary publications (e.g., CBRE/JLL market absorption studies, The Hindu BusinessLine, Economic Times). Used when private commercial terms or exact square footage are not public disclosures.
+              </p>
+            </div>
+
+            <div className="p-3 bg-[#FBE9E7] border border-[#FFCCBC] rounded-lg">
+              <div className="font-bold text-[#D84315] flex items-center gap-1.5 text-xs mb-1">
+                <Scale className="w-3.5 h-3.5" />
+                <span>Estimate (Directional / Benchmark)</span>
+              </div>
+              <p className="text-[#BF360C]">
+                Calculated or modeled projections (such as national headline totals or market consensus ranges). Clearly flagged as an estimate with the underlying baseline methodology disclosed.
               </p>
             </div>
 
@@ -94,6 +104,63 @@ export default function MethodologyPage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Dataset Freshness & Last Updated Register */}
+      <section className="space-y-4">
+        <h2 className="text-xl font-bold text-[#14171A] font-editorial">
+          3. Dataset Freshness & Audit Register
+        </h2>
+        <div className="bg-white border border-[#E8E5DE] rounded-xl overflow-hidden shadow-xs text-xs">
+          <table className="w-full text-left">
+            <thead className="bg-[#F7F5F0] border-b border-[#E8E5DE] text-[#5E646A] font-medium">
+              <tr>
+                <th className="p-3">Dataset Module</th>
+                <th className="p-3">Coverage Scope</th>
+                <th className="p-3">Primary Authoritative Sources</th>
+                <th className="p-3">Last Updated</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-[#E8E5DE] text-[#14171A]">
+              <tr>
+                <td className="p-3 font-semibold">GCC Registry</td>
+                <td className="p-3 text-[#5E646A]">30 Profiled Captives (Sample of 2,117)</td>
+                <td className="p-3 text-[#5E646A]">MCA-21 ROC Filings, Company Newsrooms</td>
+                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-semibold">Count Reconciliation</td>
+                <td className="p-3 text-[#5E646A]">National Macro Totals (Entities vs Units)</td>
+                <td className="p-3 text-[#5E646A]">Zinnov-NASSCOM FY26 & FY24 Studies</td>
+                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-semibold">City Comparator</td>
+                <td className="p-3 text-[#5E646A]">6 Metros Grade-A Rents & Tech Talent</td>
+                <td className="p-3 text-[#5E646A]">CBRE India & JLL Office Market Reports</td>
+                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-semibold">State Policy Gazettes</td>
+                <td className="p-3 text-[#5E646A]">5 State Legal Incentive Frameworks</td>
+                <td className="p-3 text-[#5E646A]">Official State IT Policy Gazettes (TN, KA, TS, MH, GJ)</td>
+                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-semibold">Recent Entrants Pipeline</td>
+                <td className="p-3 text-[#5E646A]">2026 Setup & Leasing Signals</td>
+                <td className="p-3 text-[#5E646A]">State MoUs, Micro-Market Lease Registrations</td>
+                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
+              </tr>
+              <tr>
+                <td className="p-3 font-semibold">Service Providers Directory</td>
+                <td className="p-3 text-[#5E646A]">Setup Advisors, Real Estate, Law, EOR</td>
+                <td className="p-3 text-[#5E646A]">Company Public Practice Disclosures</td>
+                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
 

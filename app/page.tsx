@@ -65,7 +65,7 @@ export default function Home() {
             href="/explorer"
             className="px-5 py-2.5 rounded-lg bg-white hover:bg-[#F7F5F0] text-[#14171A] border border-[#DCD7CE] font-semibold text-sm transition shadow-sm"
           >
-            Explore 30 Profiled Entity Records
+            Explore GCC Registry (30 profiled of 2,117)
           </Link>
 
           <Link
@@ -80,15 +80,15 @@ export default function Home() {
         {/* Corrected & Attributed Metric Strip */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-10 border-t border-[#E8E5DE]">
           <div className="p-4 bg-white border border-[#E8E5DE] rounded-xl shadow-xs">
-            <span className="text-xs text-[#5E646A] font-medium block">Unique Corporate Entities</span>
+            <span className="text-xs text-[#5E646A] font-medium block">GCC Entities in India</span>
             <span className="text-2xl sm:text-3xl font-bold text-[#14171A] font-editorial block mt-1">2,117</span>
-            <span className="text-[11px] text-[#2E7D32] font-semibold mt-1 block">Zinnov-NASSCOM FY26 Report</span>
+            <span className="text-[11px] text-[#2E7D32] font-semibold mt-1 block">NASSCOM-Zinnov FY26 estimate</span>
           </div>
 
           <div className="p-4 bg-white border border-[#E8E5DE] rounded-xl shadow-xs">
-            <span className="text-xs text-[#5E646A] font-medium block">Physical Operational Units</span>
+            <span className="text-xs text-[#5E646A] font-medium block">NASSCOM-Zinnov GCC UNITS (centres) in FY26</span>
             <span className="text-2xl sm:text-3xl font-bold text-[#14171A] font-editorial block mt-1">3,728</span>
-            <span className="text-[11px] text-[#5E646A] mt-1 block">Centers across Indian Cities</span>
+            <span className="text-[11px] text-[#5E646A] mt-1 block">Operational centres across India</span>
           </div>
 
           <div className="p-4 bg-white border border-[#E8E5DE] rounded-xl shadow-xs">

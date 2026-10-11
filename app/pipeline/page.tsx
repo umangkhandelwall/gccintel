@@ -34,13 +34,13 @@ export default function PipelinePage() {
       <div className="space-y-2 border-b border-[#E8E5DE] pb-6">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#F0EDE6] text-[#16423C] border border-[#E0DCD3]">
           <Radio className="w-3.5 h-3.5" />
-          <span>Early Setup Signals</span>
+          <span>2026 Pipeline Signals</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#14171A] font-editorial">
-          Incoming GCC Pipeline Signals
+          Recent Entrants & 2026 Pipeline Signals
         </h1>
         <p className="text-sm text-[#5E646A] max-w-3xl leading-relaxed">
-          Tracking global multinationals in active setup, commercial leasing, or initial operational ramp in India. Every record is verified against state ministry MoUs or Ministry of Corporate Affairs (MCA) filings.
+          Tracking global multinationals in active setup, commercial leasing, or initial operational ramp in India during 2026. Every record is verified against public state MoUs, newsroom announcements, or registered leasing transactions.
         </p>
       </div>
 
@@ -73,35 +73,45 @@ export default function PipelinePage() {
 
       {/* Signals List View */}
       <div className="space-y-4">
-        {filteredSignals.map((item) => (
-          <div
-            key={item.id}
-            className="p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-4 hover:border-[#C4BFB5] transition"
-          >
-            {/* Headline bar */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#E8E5DE] pb-3">
-              <div>
-                <div className="flex items-center gap-2">
-                  <h2 className="text-lg font-bold text-[#14171A] tracking-tight">
-                    {item.companyName}
-                  </h2>
-                  <span className="px-2.5 py-0.5 rounded text-[10px] font-semibold bg-[#E8F5E9] text-[#2E7D32] border border-[#C8E6C9]">
-                    {item.signalStatus}
+        {filteredSignals.map((item) => {
+          // Calculate signal age in months relative to Oct 2026
+          const signalYear = parseInt(item.signalDate.split('-')[0], 10);
+          const signalMonth = parseInt(item.signalDate.split('-')[1], 10);
+          const ageMonths = (2026 - signalYear) * 12 + (10 - signalMonth);
+          const signalAgeText = ageMonths <= 1 ? 'Current month' : `${ageMonths} months ago`;
+
+          return (
+            <div
+              key={item.id}
+              className="p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-4 hover:border-[#C4BFB5] transition"
+            >
+              {/* Headline bar */}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#E8E5DE] pb-3">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h2 className="text-lg font-bold text-[#14171A] tracking-tight">
+                      {item.companyName}
+                    </h2>
+                    <span className="px-2.5 py-0.5 rounded text-[10px] font-semibold bg-[#E8F5E9] text-[#2E7D32] border border-[#C8E6C9]">
+                      Status: {item.signalStatus}
+                    </span>
+                  </div>
+                  <div className="text-xs text-[#5E646A] mt-0.5">
+                    HQ: <span className="text-[#14171A]">{item.headquarters}</span> • Sector: <span className="text-[#14171A]">{item.sector}</span>
+                  </div>
+                </div>
+
+                <div className="text-left sm:text-right text-xs">
+                  <span className="text-[#8B929A] block text-[10px] uppercase font-medium">Signal Age & Detection</span>
+                  <span className="text-[#14171A] font-mono flex items-center sm:justify-end gap-1.5">
+                    <span className="px-1.5 py-0.5 rounded bg-[#F0EDE6] text-[10px] font-medium text-[#16423C]">
+                      {signalAgeText}
+                    </span>
+                    <Calendar className="w-3 h-3 text-[#5E646A]" />
+                    {item.signalDate}
                   </span>
                 </div>
-                <div className="text-xs text-[#5E646A] mt-0.5">
-                  HQ: <span className="text-[#14171A]">{item.headquarters}</span> • Sector: <span className="text-[#14171A]">{item.sector}</span>
-                </div>
               </div>
-
-              <div className="text-left sm:text-right text-xs">
-                <span className="text-[#8B929A] block text-[10px] uppercase font-medium">Detection Date</span>
-                <span className="text-[#14171A] font-mono flex items-center sm:justify-end gap-1">
-                  <Calendar className="w-3 h-3 text-[#5E646A]" />
-                  {item.signalDate}
-                </span>
-              </div>
-            </div>
 
             {/* Metrics breakdown */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-3.5 bg-[#F7F5F0] border border-[#E8E5DE] rounded-lg text-xs">
@@ -156,8 +166,9 @@ export default function PipelinePage() {
               <SourceList sources={item.officialSources} />
             </div>
           </div>
-        ))}
-      </div>
+        );
+      })}
     </div>
-  );
+  </div>
+);
 }

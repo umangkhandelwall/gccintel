@@ -35,7 +35,7 @@ export default function RootLayout({
               <span>The Source of Truth for India GCC Infrastructure</span>
             </div>
             <div className="text-[#8B929A] flex items-center gap-4">
-              <span>All statistics attributed to primary regulatory gazettes & ROC filings</span>
+              <span>Sources linked on every record.</span>
               <span>•</span>
               <span>Built for Flexiple Strategy Assignment</span>
             </div>

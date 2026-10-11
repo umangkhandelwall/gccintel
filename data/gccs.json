@@ -4,7 +4,7 @@
     "name": "Microsoft Corporation India Captive Entity",
     "parentCompany": "Microsoft Corporation",
     "parentCountry": "US",
-    "parentSector": "Software & Enterprise Tech",
+    "parentSector": "Technology",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -57,7 +57,7 @@
     "name": "Alphabet Inc. (Google) India Captive Entity",
     "parentCompany": "Alphabet Inc. (Google)",
     "parentCountry": "US",
-    "parentSector": "Software & Enterprise Tech",
+    "parentSector": "Technology",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -96,7 +96,7 @@
     "name": "Amazon.com Inc. India Captive Entity",
     "parentCompany": "Amazon.com Inc.",
     "parentCountry": "US",
-    "parentSector": "Software & Enterprise Tech",
+    "parentSector": "Technology",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -143,7 +143,7 @@
     "name": "JPMorgan Chase & Co. India Captive Entity",
     "parentCompany": "JPMorgan Chase & Co.",
     "parentCountry": "US",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -191,7 +191,7 @@
     "name": "Walmart Inc. India Captive Entity",
     "parentCompany": "Walmart Inc.",
     "parentCountry": "US",
-    "parentSector": "Retail & Consumer Tech",
+    "parentSector": "Retail/CPG",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -230,7 +230,7 @@
     "name": "Robert Bosch GmbH India Captive Entity",
     "parentCompany": "Robert Bosch GmbH",
     "parentCountry": "DE",
-    "parentSector": "Automotive & Mobility ER&D",
+    "parentSector": "Automotive/ER&D",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -270,7 +270,7 @@
     "name": "Airbus SE India Captive Entity",
     "parentCompany": "Airbus SE",
     "parentCountry": "FR",
-    "parentSector": "Aerospace & Heavy Engineering",
+    "parentSector": "Manufacturing/ER&D",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -309,7 +309,7 @@
     "name": "SAP SE India Captive Entity",
     "parentCompany": "SAP SE",
     "parentCountry": "DE",
-    "parentSector": "Software & Enterprise Tech",
+    "parentSector": "Technology",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -348,7 +348,7 @@
     "name": "Amgen Inc. India Captive Entity",
     "parentCompany": "Amgen Inc.",
     "parentCountry": "US",
-    "parentSector": "Healthcare & Life Sciences",
+    "parentSector": "Healthcare/Life Sciences",
     "primaryHub": "Hyderabad",
     "campuses": [
       {
@@ -387,7 +387,7 @@
     "name": "UBS Group AG India Captive Entity",
     "parentCompany": "UBS Group AG",
     "parentCountry": "CH",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Hyderabad",
     "campuses": [
       {
@@ -427,7 +427,7 @@
     "name": "Mercedes-Benz AG India Captive Entity",
     "parentCompany": "Mercedes-Benz AG",
     "parentCountry": "DE",
-    "parentSector": "Automotive & Mobility ER&D",
+    "parentSector": "Automotive/ER&D",
     "primaryHub": "Pune",
     "campuses": [
       {
@@ -466,7 +466,7 @@
     "name": "Barclays PLC India Captive Entity",
     "parentCompany": "Barclays PLC",
     "parentCountry": "GB",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Pune",
     "campuses": [
       {
@@ -506,7 +506,7 @@
     "name": "Volkswagen AG India Captive Entity",
     "parentCompany": "Volkswagen AG",
     "parentCountry": "DE",
-    "parentSector": "Automotive & Mobility ER&D",
+    "parentSector": "Automotive/ER&D",
     "primaryHub": "Pune",
     "campuses": [
       {
@@ -545,7 +545,7 @@
     "name": "Goldman Sachs Group Inc. India Captive Entity",
     "parentCompany": "Goldman Sachs Group Inc.",
     "parentCountry": "US",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -584,7 +584,7 @@
     "name": "Ford Motor Company India Captive Entity",
     "parentCompany": "Ford Motor Company",
     "parentCountry": "US",
-    "parentSector": "Automotive & Mobility ER&D",
+    "parentSector": "Automotive/ER&D",
     "primaryHub": "Chennai",
     "campuses": [
       {
@@ -623,7 +623,7 @@
     "name": "Standard Chartered PLC India Captive Entity",
     "parentCompany": "Standard Chartered PLC",
     "parentCountry": "GB",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Chennai",
     "campuses": [
       {
@@ -663,7 +663,7 @@
     "name": "Hyundai Motor Company India Captive Entity",
     "parentCompany": "Hyundai Motor Company",
     "parentCountry": "KR",
-    "parentSector": "Automotive & Mobility ER&D",
+    "parentSector": "Automotive/ER&D",
     "primaryHub": "Chennai",
     "campuses": [
       {
@@ -701,7 +701,7 @@
     "name": "American Express Company India Captive Entity",
     "parentCompany": "American Express Company",
     "parentCountry": "US",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Gurugram",
     "campuses": [
       {
@@ -741,7 +741,7 @@
     "name": "HSBC Holdings PLC India Captive Entity",
     "parentCompany": "HSBC Holdings PLC",
     "parentCountry": "GB",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Pune",
     "campuses": [
       {
@@ -781,7 +781,7 @@
     "name": "Siemens AG India Captive Entity",
     "parentCompany": "Siemens AG",
     "parentCountry": "DE",
-    "parentSector": "Automotive & Mobility ER&D",
+    "parentSector": "Automotive/ER&D",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -820,7 +820,7 @@
     "name": "Cisco Systems Inc. India Captive Entity",
     "parentCompany": "Cisco Systems Inc.",
     "parentCountry": "US",
-    "parentSector": "Software & Enterprise Tech",
+    "parentSector": "Technology",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -859,7 +859,7 @@
     "name": "Bank of America Corporation India Captive Entity",
     "parentCompany": "Bank of America Corporation",
     "parentCountry": "US",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Hyderabad",
     "campuses": [
       {
@@ -899,7 +899,7 @@
     "name": "Intel Corporation India Captive Entity",
     "parentCompany": "Intel Corporation",
     "parentCountry": "US",
-    "parentSector": "Semiconductors & Electronics",
+    "parentSector": "Semiconductors",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -938,7 +938,7 @@
     "name": "Mastercard Incorporated India Captive Entity",
     "parentCompany": "Mastercard Incorporated",
     "parentCountry": "US",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Pune",
     "campuses": [
       {
@@ -977,7 +977,7 @@
     "name": "Telefonaktiebolaget LM Ericsson India Captive Entity",
     "parentCompany": "Telefonaktiebolaget LM Ericsson",
     "parentCountry": "SE",
-    "parentSector": "Software & Enterprise Tech",
+    "parentSector": "Technology",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -1016,7 +1016,7 @@
     "name": "Airbnb Inc. India Captive Entity",
     "parentCompany": "Airbnb Inc.",
     "parentCountry": "US",
-    "parentSector": "Software & Enterprise Tech",
+    "parentSector": "Technology",
     "primaryHub": "Gurugram",
     "campuses": [
       {
@@ -1054,7 +1054,7 @@
     "name": "L'Oréal SA India Captive Entity",
     "parentCompany": "L'Oréal SA",
     "parentCountry": "FR",
-    "parentSector": "Retail & Consumer Tech",
+    "parentSector": "Retail/CPG",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -1093,7 +1093,7 @@
     "name": "Honeywell International Inc. India Captive Entity",
     "parentCompany": "Honeywell International Inc.",
     "parentCountry": "US",
-    "parentSector": "Automotive & Mobility ER&D",
+    "parentSector": "Automotive/ER&D",
     "primaryHub": "Bengaluru",
     "campuses": [
       {
@@ -1132,7 +1132,7 @@
     "name": "Qualcomm Technologies Inc. India Captive Entity",
     "parentCompany": "Qualcomm Technologies Inc.",
     "parentCountry": "US",
-    "parentSector": "Semiconductors & Electronics",
+    "parentSector": "Semiconductors",
     "primaryHub": "Hyderabad",
     "campuses": [
       {
@@ -1171,7 +1171,7 @@
     "name": "Morningstar Inc. India Captive Entity",
     "parentCompany": "Morningstar Inc.",
     "parentCountry": "US",
-    "parentSector": "BFSI & FinTech",
+    "parentSector": "BFSI",
     "primaryHub": "Hyderabad",
     "campuses": [
       {
