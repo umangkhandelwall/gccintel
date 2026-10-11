@@ -1,16 +1,35 @@
 [
   {
-    "id": "gcc_microsoft_blr_001",
-    "name": "Microsoft India Development Center",
+    "id": "entity_microsoft_corporation",
+    "name": "Microsoft Corporation India Captive Entity",
     "parentCompany": "Microsoft Corporation",
     "parentCountry": "US",
-    "parentSector": "Technology",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Outer Ring Road (Bellandur)",
+    "parentSector": "Software & Enterprise Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road (Bellandur)",
+        "centerName": "Microsoft India Development Center"
+      },
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "microMarket": "HITEC City (Hyderabad IT Park)",
+        "centerName": "Microsoft India (R&D) – Hyderabad"
+      }
+    ],
     "headcountBand": ">10000",
     "yearEstablished": 1998,
-    "functions": ["Engineering", "AI/ML", "Cloud", "Product"],
+    "functions": [
+      "Engineering",
+      "AI/ML",
+      "Cloud",
+      "Product",
+      "Azure",
+      "Finance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -28,21 +47,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru (+1 multi-city sites)",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 2
   },
   {
-    "id": "gcc_google_blr_001",
-    "name": "Google India Development Center",
+    "id": "entity_alphabet_inc___google_",
+    "name": "Alphabet Inc. (Google) India Captive Entity",
     "parentCompany": "Alphabet Inc. (Google)",
     "parentCountry": "US",
-    "parentSector": "Technology",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Outer Ring Road (Marathahalli)",
+    "parentSector": "Software & Enterprise Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road (Marathahalli)",
+        "centerName": "Google India Development Center"
+      }
+    ],
     "headcountBand": ">10000",
     "yearEstablished": 2004,
-    "functions": ["Engineering", "AI/ML", "Product", "Research"],
+    "functions": [
+      "Engineering",
+      "AI/ML",
+      "Product",
+      "Research"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -54,21 +86,42 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_amazon_blr_001",
-    "name": "Amazon Development Center India – Bengaluru",
-    "parentCompany": "Amazon.com Inc.",
-    "parentCountry": "US",
-    "parentSector": "Technology",
+    "lastUpdated": "2026-05-15",
     "city": "Bengaluru",
     "state": "Karnataka",
-    "microMarket": "Outer Ring Road (Iblur)",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_amazon_com_inc_",
+    "name": "Amazon.com Inc. India Captive Entity",
+    "parentCompany": "Amazon.com Inc.",
+    "parentCountry": "US",
+    "parentSector": "Software & Enterprise Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road (Iblur)",
+        "centerName": "Amazon Development Center India – Bengaluru"
+      },
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "microMarket": "HITEC City",
+        "centerName": "Amazon Development Center India – Hyderabad"
+      }
+    ],
     "headcountBand": ">10000",
     "yearEstablished": 2004,
-    "functions": ["Engineering", "AI/ML", "Alexa", "AWS", "Operations"],
+    "functions": [
+      "Engineering",
+      "AI/ML",
+      "Alexa",
+      "AWS",
+      "Operations",
+      "Finance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -80,21 +133,43 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru (+1 multi-city sites)",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 2
   },
   {
-    "id": "gcc_jpmorgan_blr_001",
-    "name": "JPMorgan Chase Services India – Bengaluru",
+    "id": "entity_jpmorgan_chase___co_",
+    "name": "JPMorgan Chase & Co. India Captive Entity",
     "parentCompany": "JPMorgan Chase & Co.",
     "parentCountry": "US",
-    "parentSector": "BFSI",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Outer Ring Road (Manyata Tech Park)",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road (Manyata Tech Park)",
+        "centerName": "JPMorgan Chase Services India – Bengaluru"
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "microMarket": "Bandra Kurla Complex (BKC)",
+        "centerName": "JPMorgan Chase Bank India – Mumbai"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2001,
-    "functions": ["Finance", "Engineering", "Risk", "Compliance", "AI/ML"],
+    "functions": [
+      "Finance",
+      "Engineering",
+      "Risk",
+      "Compliance",
+      "AI/ML",
+      "Investment Banking",
+      "Trading Technology"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -106,21 +181,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru (+1 multi-city sites)",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 2
   },
   {
-    "id": "gcc_walmart_blr_001",
-    "name": "Walmart Global Tech India",
+    "id": "entity_walmart_inc_",
+    "name": "Walmart Inc. India Captive Entity",
     "parentCompany": "Walmart Inc.",
     "parentCountry": "US",
-    "parentSector": "Retail",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Outer Ring Road (Embassy Tech Village)",
+    "parentSector": "Retail & Consumer Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road (Embassy Tech Village)",
+        "centerName": "Walmart Global Tech India"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2019,
-    "functions": ["Engineering", "Data Science", "Product", "Finance"],
+    "functions": [
+      "Engineering",
+      "Data Science",
+      "Product",
+      "Finance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -132,21 +220,35 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_bosch_blr_001",
-    "name": "Bosch Global Software Technologies",
-    "parentCompany": "Robert Bosch GmbH",
-    "parentCountry": "DE",
-    "parentSector": "Manufacturing/ER&D",
+    "lastUpdated": "2026-05-15",
     "city": "Bengaluru",
     "state": "Karnataka",
-    "microMarket": "Electronic City",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_robert_bosch_gmbh",
+    "name": "Robert Bosch GmbH India Captive Entity",
+    "parentCompany": "Robert Bosch GmbH",
+    "parentCountry": "DE",
+    "parentSector": "Automotive & Mobility ER&D",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Electronic City",
+        "centerName": "Bosch Global Software Technologies"
+      }
+    ],
     "headcountBand": ">10000",
     "yearEstablished": 1998,
-    "functions": ["Engineering", "Automotive Software", "IoT", "AI/ML", "Embedded Systems"],
+    "functions": [
+      "Engineering",
+      "Automotive Software",
+      "IoT",
+      "AI/ML",
+      "Embedded Systems"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -158,21 +260,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_airbus_blr_001",
-    "name": "Airbus India Engineering Centre",
-    "parentCompany": "Airbus SE",
-    "parentCountry": "FR",
-    "parentSector": "Aerospace/ER&D",
+    "lastUpdated": "2026-05-15",
     "city": "Bengaluru",
     "state": "Karnataka",
-    "microMarket": "Aerospace SEZ",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_airbus_se",
+    "name": "Airbus SE India Captive Entity",
+    "parentCompany": "Airbus SE",
+    "parentCountry": "FR",
+    "parentSector": "Aerospace & Heavy Engineering",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Aerospace SEZ",
+        "centerName": "Airbus India Engineering Centre"
+      }
+    ],
     "headcountBand": "500-2000",
     "yearEstablished": 2017,
-    "functions": ["Aerospace Engineering", "CAD/CAM", "Digital Transformation", "Data Science"],
+    "functions": [
+      "Aerospace Engineering",
+      "CAD/CAM",
+      "Digital Transformation",
+      "Data Science"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -184,21 +299,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_sap_blr_001",
-    "name": "SAP India Development Center",
-    "parentCompany": "SAP SE",
-    "parentCountry": "DE",
-    "parentSector": "Technology",
+    "lastUpdated": "2026-05-15",
     "city": "Bengaluru",
     "state": "Karnataka",
-    "microMarket": "Whitefield (Embassy Manyata)",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_sap_se",
+    "name": "SAP SE India Captive Entity",
+    "parentCompany": "SAP SE",
+    "parentCountry": "DE",
+    "parentSector": "Software & Enterprise Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Whitefield (Embassy Manyata)",
+        "centerName": "SAP India Development Center"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 1998,
-    "functions": ["Engineering", "Product", "Customer Success", "Finance"],
+    "functions": [
+      "Engineering",
+      "Product",
+      "Customer Success",
+      "Finance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -210,47 +338,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_microsoft_hyd_001",
-    "name": "Microsoft India (R&D) – Hyderabad",
-    "parentCompany": "Microsoft Corporation",
-    "parentCountry": "US",
-    "parentSector": "Technology",
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "microMarket": "HITEC City (Hyderabad IT Park)",
-    "headcountBand": "2000-10000",
-    "yearEstablished": 1998,
-    "functions": ["Engineering", "AI/ML", "Azure", "Finance"],
-    "operatingModel": "wholly-owned",
-    "sources": [
-      {
-        "url": "https://news.microsoft.com/en-in/",
-        "publisher": "Microsoft Newsroom India",
-        "date": "2024-01-15",
-        "note": "Microsoft Hyderabad is the second-largest Microsoft campus globally after Redmond; opened 1998"
-      }
-    ],
-    "confidence": "high",
-    "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_amgen_hyd_001",
-    "name": "Amgen India GCC",
+    "id": "entity_amgen_inc_",
+    "name": "Amgen Inc. India Captive Entity",
     "parentCompany": "Amgen Inc.",
     "parentCountry": "US",
-    "parentSector": "Healthcare/Life Sciences",
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "microMarket": "Genome Valley",
+    "parentSector": "Healthcare & Life Sciences",
+    "primaryHub": "Hyderabad",
+    "campuses": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "microMarket": "Genome Valley",
+        "centerName": "Amgen India GCC"
+      }
+    ],
     "headcountBand": "500-2000",
     "yearEstablished": 2024,
-    "functions": ["Data Science", "AI/ML", "Drug Discovery", "Finance"],
+    "functions": [
+      "Data Science",
+      "AI/ML",
+      "Drug Discovery",
+      "Finance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -262,21 +377,35 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_ubs_hyd_001",
-    "name": "UBS Business Solutions India – Hyderabad",
-    "parentCompany": "UBS Group AG",
-    "parentCountry": "CH",
-    "parentSector": "BFSI",
+    "lastUpdated": "2026-05-15",
     "city": "Hyderabad",
     "state": "Telangana",
-    "microMarket": "Gachibowli (Financial District)",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_ubs_group_ag",
+    "name": "UBS Group AG India Captive Entity",
+    "parentCompany": "UBS Group AG",
+    "parentCountry": "CH",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Hyderabad",
+    "campuses": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "microMarket": "Gachibowli (Financial District)",
+        "centerName": "UBS Business Solutions India – Hyderabad"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2010,
-    "functions": ["Finance", "Risk", "Compliance", "Technology", "Operations"],
+    "functions": [
+      "Finance",
+      "Risk",
+      "Compliance",
+      "Technology",
+      "Operations"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -288,47 +417,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_amazon_hyd_001",
-    "name": "Amazon Development Center India – Hyderabad",
-    "parentCompany": "Amazon.com Inc.",
-    "parentCountry": "US",
-    "parentSector": "Technology",
+    "lastUpdated": "2026-05-15",
     "city": "Hyderabad",
     "state": "Telangana",
-    "microMarket": "HITEC City",
-    "headcountBand": "2000-10000",
-    "yearEstablished": 2015,
-    "functions": ["Engineering", "AWS", "Alexa", "Finance"],
-    "operatingModel": "wholly-owned",
-    "sources": [
-      {
-        "url": "https://www.aboutamazon.in/",
-        "publisher": "Amazon About India",
-        "date": "2024-01-01",
-        "note": "Amazon Hyderabad office; part of 60,000+ India headcount across multiple cities"
-      }
-    ],
-    "confidence": "high",
-    "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_mercedes_pune_001",
-    "name": "Mercedes-Benz Research & Development India",
+    "id": "entity_mercedes_benz_ag",
+    "name": "Mercedes-Benz AG India Captive Entity",
     "parentCompany": "Mercedes-Benz AG",
     "parentCountry": "DE",
-    "parentSector": "Automotive/ER&D",
-    "city": "Pune",
-    "state": "Maharashtra",
-    "microMarket": "Hinjewadi (Rajiv Gandhi Infotech Park)",
+    "parentSector": "Automotive & Mobility ER&D",
+    "primaryHub": "Pune",
+    "campuses": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "microMarket": "Hinjewadi (Rajiv Gandhi Infotech Park)",
+        "centerName": "Mercedes-Benz Research & Development India"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 1996,
-    "functions": ["Automotive Engineering", "Embedded Systems", "AI/ML", "Digital Transformation"],
+    "functions": [
+      "Automotive Engineering",
+      "Embedded Systems",
+      "AI/ML",
+      "Digital Transformation"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -340,21 +456,35 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_barclays_pune_001",
-    "name": "Barclays India Shared Services",
-    "parentCompany": "Barclays PLC",
-    "parentCountry": "GB",
-    "parentSector": "BFSI",
+    "lastUpdated": "2026-05-15",
     "city": "Pune",
     "state": "Maharashtra",
-    "microMarket": "Kharadi (EON IT Park)",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_barclays_plc",
+    "name": "Barclays PLC India Captive Entity",
+    "parentCompany": "Barclays PLC",
+    "parentCountry": "GB",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Pune",
+    "campuses": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "microMarket": "Kharadi (EON IT Park)",
+        "centerName": "Barclays India Shared Services"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2005,
-    "functions": ["Finance", "Risk", "Technology", "Operations", "Compliance"],
+    "functions": [
+      "Finance",
+      "Risk",
+      "Technology",
+      "Operations",
+      "Compliance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -366,21 +496,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_volkswagen_pune_001",
-    "name": "Volkswagen Group Technology Solutions India",
-    "parentCompany": "Volkswagen AG",
-    "parentCountry": "DE",
-    "parentSector": "Automotive/ER&D",
+    "lastUpdated": "2026-05-15",
     "city": "Pune",
     "state": "Maharashtra",
-    "microMarket": "Hinjewadi",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_volkswagen_ag",
+    "name": "Volkswagen AG India Captive Entity",
+    "parentCompany": "Volkswagen AG",
+    "parentCountry": "DE",
+    "parentSector": "Automotive & Mobility ER&D",
+    "primaryHub": "Pune",
+    "campuses": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "microMarket": "Hinjewadi",
+        "centerName": "Volkswagen Group Technology Solutions India"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2008,
-    "functions": ["Automotive Engineering", "EV Software", "Embedded Systems", "Data Analytics"],
+    "functions": [
+      "Automotive Engineering",
+      "EV Software",
+      "Embedded Systems",
+      "Data Analytics"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -392,47 +535,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_jpmorgan_mum_001",
-    "name": "JPMorgan Chase Bank India – Mumbai",
-    "parentCompany": "JPMorgan Chase & Co.",
-    "parentCountry": "US",
-    "parentSector": "BFSI",
-    "city": "Mumbai",
+    "lastUpdated": "2026-05-15",
+    "city": "Pune",
     "state": "Maharashtra",
-    "microMarket": "Bandra Kurla Complex (BKC)",
-    "headcountBand": "2000-10000",
-    "yearEstablished": 2001,
-    "functions": ["Finance", "Investment Banking", "Risk", "Trading Technology"],
-    "operatingModel": "wholly-owned",
-    "sources": [
-      {
-        "url": "https://www.jpmorgan.com/global/about/india",
-        "publisher": "JPMorgan Chase Official",
-        "date": "2024-06-01",
-        "note": "JPMorgan Mumbai: BFSI-focused GCC at BKC; combined India headcount 50,000+ across cities"
-      }
-    ],
-    "confidence": "high",
-    "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_goldmansachs_blr_001",
-    "name": "Goldman Sachs India – Bengaluru",
+    "id": "entity_goldman_sachs_group_inc_",
+    "name": "Goldman Sachs Group Inc. India Captive Entity",
     "parentCompany": "Goldman Sachs Group Inc.",
     "parentCountry": "US",
-    "parentSector": "BFSI",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Embassy Tech Village (Outer Ring Road)",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Embassy Tech Village (Outer Ring Road)",
+        "centerName": "Goldman Sachs India – Bengaluru"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2004,
-    "functions": ["Engineering", "Finance", "Risk", "Quantitative Research"],
+    "functions": [
+      "Engineering",
+      "Finance",
+      "Risk",
+      "Quantitative Research"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -444,21 +574,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_ford_chennai_001",
-    "name": "Ford Business Solutions India – Chennai",
+    "id": "entity_ford_motor_company",
+    "name": "Ford Motor Company India Captive Entity",
     "parentCompany": "Ford Motor Company",
     "parentCountry": "US",
-    "parentSector": "Automotive/ER&D",
-    "city": "Chennai",
-    "state": "Tamil Nadu",
-    "microMarket": "Old Mahabalipuram Road (OMR)",
+    "parentSector": "Automotive & Mobility ER&D",
+    "primaryHub": "Chennai",
+    "campuses": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "microMarket": "Old Mahabalipuram Road (OMR)",
+        "centerName": "Ford Business Solutions India – Chennai"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2019,
-    "functions": ["Engineering", "Data Science", "Finance", "Supply Chain"],
+    "functions": [
+      "Engineering",
+      "Data Science",
+      "Finance",
+      "Supply Chain"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -470,21 +613,35 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_standardchartered_chennai_001",
-    "name": "Standard Chartered GBS India – Chennai",
-    "parentCompany": "Standard Chartered PLC",
-    "parentCountry": "GB",
-    "parentSector": "BFSI",
+    "lastUpdated": "2026-05-15",
     "city": "Chennai",
     "state": "Tamil Nadu",
-    "microMarket": "Old Mahabalipuram Road (OMR)",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_standard_chartered_plc",
+    "name": "Standard Chartered PLC India Captive Entity",
+    "parentCompany": "Standard Chartered PLC",
+    "parentCountry": "GB",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Chennai",
+    "campuses": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "microMarket": "Old Mahabalipuram Road (OMR)",
+        "centerName": "Standard Chartered GBS India – Chennai"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2000,
-    "functions": ["Finance", "Technology", "Risk", "Compliance", "Operations"],
+    "functions": [
+      "Finance",
+      "Technology",
+      "Risk",
+      "Compliance",
+      "Operations"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -496,21 +653,33 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_hyundai_chennai_001",
-    "name": "Hyundai Motor India Engineering Centre",
-    "parentCompany": "Hyundai Motor Company",
-    "parentCountry": "KR",
-    "parentSector": "Automotive/ER&D",
+    "lastUpdated": "2026-05-15",
     "city": "Chennai",
     "state": "Tamil Nadu",
-    "microMarket": "Sriperumbudur Industrial Corridor",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_hyundai_motor_company",
+    "name": "Hyundai Motor Company India Captive Entity",
+    "parentCompany": "Hyundai Motor Company",
+    "parentCountry": "KR",
+    "parentSector": "Automotive & Mobility ER&D",
+    "primaryHub": "Chennai",
+    "campuses": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "microMarket": "Sriperumbudur Industrial Corridor",
+        "centerName": "Hyundai Motor India Engineering Centre"
+      }
+    ],
     "headcountBand": "500-2000",
     "yearEstablished": 2020,
-    "functions": ["Automotive Engineering", "EV R&D", "Software Engineering"],
+    "functions": [
+      "Automotive Engineering",
+      "EV R&D",
+      "Software Engineering"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -522,21 +691,35 @@
     ],
     "confidence": "medium",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_americanexpress_ncr_001",
-    "name": "American Express India GCC – Gurugram",
+    "id": "entity_american_express_company",
+    "name": "American Express Company India Captive Entity",
     "parentCompany": "American Express Company",
     "parentCountry": "US",
-    "parentSector": "BFSI",
-    "city": "Gurugram",
-    "state": "Haryana",
-    "microMarket": "Cyber City DLF",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Gurugram",
+    "campuses": [
+      {
+        "city": "Gurugram",
+        "state": "Haryana",
+        "microMarket": "Cyber City DLF",
+        "centerName": "American Express India GCC – Gurugram"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2001,
-    "functions": ["Technology", "Finance", "Risk", "Data Science", "Customer Operations"],
+    "functions": [
+      "Technology",
+      "Finance",
+      "Risk",
+      "Data Science",
+      "Customer Operations"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -548,21 +731,35 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_hsbc_pune_001",
-    "name": "HSBC Global Service Centre – Pune",
+    "id": "entity_hsbc_holdings_plc",
+    "name": "HSBC Holdings PLC India Captive Entity",
     "parentCompany": "HSBC Holdings PLC",
     "parentCountry": "GB",
-    "parentSector": "BFSI",
-    "city": "Pune",
-    "state": "Maharashtra",
-    "microMarket": "Magarpatta",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Pune",
+    "campuses": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "microMarket": "Magarpatta",
+        "centerName": "HSBC Global Service Centre – Pune"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2002,
-    "functions": ["Finance", "Risk", "Technology", "Operations", "Compliance"],
+    "functions": [
+      "Finance",
+      "Risk",
+      "Technology",
+      "Operations",
+      "Compliance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -574,47 +771,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_deloitte_hyd_001",
-    "name": "Deloitte India (Offices of the US Firms)",
-    "parentCompany": "Deloitte LLP (US)",
-    "parentCountry": "US",
-    "parentSector": "Professional Services",
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "microMarket": "Gachibowli (Financial District)",
-    "headcountBand": ">10000",
-    "yearEstablished": 1997,
-    "functions": ["Finance", "Technology", "Risk Advisory", "Audit Support", "AI/ML"],
-    "operatingModel": "wholly-owned",
-    "sources": [
-      {
-        "url": "https://www2.deloitte.com/in/en/careers/about-deloitte-in-india.html",
-        "publisher": "Deloitte India Careers",
-        "date": "2024-01-01",
-        "note": "Deloitte India offices (captive GCC): 100,000+ employees across India; Hyderabad is the flagship delivery centre"
-      }
-    ],
-    "confidence": "high",
-    "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_siemens_blr_001",
-    "name": "Siemens Technology India – Bengaluru",
+    "id": "entity_siemens_ag",
+    "name": "Siemens AG India Captive Entity",
     "parentCompany": "Siemens AG",
     "parentCountry": "DE",
-    "parentSector": "Manufacturing/ER&D",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Electronic City",
+    "parentSector": "Automotive & Mobility ER&D",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Electronic City",
+        "centerName": "Siemens Technology India – Bengaluru"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2001,
-    "functions": ["Industrial Software", "Automation Engineering", "AI/ML", "Digitalization"],
+    "functions": [
+      "Industrial Software",
+      "Automation Engineering",
+      "AI/ML",
+      "Digitalization"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -626,21 +810,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_cisco_blr_001",
-    "name": "Cisco India Development Center – Bengaluru",
-    "parentCompany": "Cisco Systems Inc.",
-    "parentCountry": "US",
-    "parentSector": "Technology",
+    "lastUpdated": "2026-05-15",
     "city": "Bengaluru",
     "state": "Karnataka",
-    "microMarket": "Outer Ring Road (Sarjapur)",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_cisco_systems_inc_",
+    "name": "Cisco Systems Inc. India Captive Entity",
+    "parentCompany": "Cisco Systems Inc.",
+    "parentCountry": "US",
+    "parentSector": "Software & Enterprise Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road (Sarjapur)",
+        "centerName": "Cisco India Development Center – Bengaluru"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 1995,
-    "functions": ["Engineering", "Networking", "Cybersecurity", "AI/ML"],
+    "functions": [
+      "Engineering",
+      "Networking",
+      "Cybersecurity",
+      "AI/ML"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -652,21 +849,35 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_bankofamerica_hyd_001",
-    "name": "Bank of America India GCC – Hyderabad",
+    "id": "entity_bank_of_america_corporation",
+    "name": "Bank of America Corporation India Captive Entity",
     "parentCompany": "Bank of America Corporation",
     "parentCountry": "US",
-    "parentSector": "BFSI",
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "microMarket": "HITEC City / Gachibowli",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Hyderabad",
+    "campuses": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "microMarket": "HITEC City / Gachibowli",
+        "centerName": "Bank of America India GCC – Hyderabad"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2004,
-    "functions": ["Finance", "Risk", "Technology", "Operations", "AI/ML"],
+    "functions": [
+      "Finance",
+      "Risk",
+      "Technology",
+      "Operations",
+      "AI/ML"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -678,21 +889,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_intel_blr_001",
-    "name": "Intel India Design Center – Bengaluru",
+    "id": "entity_intel_corporation",
+    "name": "Intel Corporation India Captive Entity",
     "parentCompany": "Intel Corporation",
     "parentCountry": "US",
-    "parentSector": "Semiconductors/ER&D",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Outer Ring Road",
+    "parentSector": "Semiconductors & Electronics",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road",
+        "centerName": "Intel India Design Center – Bengaluru"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 1988,
-    "functions": ["Chip Design", "Engineering", "AI/ML", "Architecture"],
+    "functions": [
+      "Chip Design",
+      "Engineering",
+      "AI/ML",
+      "Architecture"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -704,21 +928,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_mastercard_pune_001",
-    "name": "Mastercard India Technology Hub – Pune",
+    "id": "entity_mastercard_incorporated",
+    "name": "Mastercard Incorporated India Captive Entity",
     "parentCompany": "Mastercard Incorporated",
     "parentCountry": "US",
-    "parentSector": "BFSI/FinTech",
-    "city": "Pune",
-    "state": "Maharashtra",
-    "microMarket": "Hinjewadi",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Pune",
+    "campuses": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "microMarket": "Hinjewadi",
+        "centerName": "Mastercard India Technology Hub – Pune"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2012,
-    "functions": ["Technology", "Data Science", "Cybersecurity", "Finance"],
+    "functions": [
+      "Technology",
+      "Data Science",
+      "Cybersecurity",
+      "Finance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -730,21 +967,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_ericsson_blr_001",
-    "name": "Ericsson India Global Services – Bengaluru",
+    "id": "entity_telefonaktiebolaget_lm_ericsson",
+    "name": "Telefonaktiebolaget LM Ericsson India Captive Entity",
     "parentCompany": "Telefonaktiebolaget LM Ericsson",
     "parentCountry": "SE",
-    "parentSector": "Telecom/Technology",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Outer Ring Road (Manyata Tech Park)",
+    "parentSector": "Software & Enterprise Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road (Manyata Tech Park)",
+        "centerName": "Ericsson India Global Services – Bengaluru"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 1994,
-    "functions": ["Telecom Engineering", "5G R&D", "Network Software", "AI/ML"],
+    "functions": [
+      "Telecom Engineering",
+      "5G R&D",
+      "Network Software",
+      "AI/ML"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -756,21 +1006,33 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_airbnb_ncr_001",
-    "name": "Airbnb India Technology – Gurugram",
+    "id": "entity_airbnb_inc_",
+    "name": "Airbnb Inc. India Captive Entity",
     "parentCompany": "Airbnb Inc.",
     "parentCountry": "US",
-    "parentSector": "Technology/Travel",
-    "city": "Gurugram",
-    "state": "Haryana",
-    "microMarket": "Golf Course Extension Road",
+    "parentSector": "Software & Enterprise Tech",
+    "primaryHub": "Gurugram",
+    "campuses": [
+      {
+        "city": "Gurugram",
+        "state": "Haryana",
+        "microMarket": "Golf Course Extension Road",
+        "centerName": "Airbnb India Technology – Gurugram"
+      }
+    ],
     "headcountBand": "<500",
     "yearEstablished": 2022,
-    "functions": ["Engineering", "Data Science", "Product"],
+    "functions": [
+      "Engineering",
+      "Data Science",
+      "Product"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -782,21 +1044,34 @@
     ],
     "confidence": "medium",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_lreal_blr_001",
-    "name": "L'Oréal India Digital Operations – Bengaluru",
+    "id": "entity_l_or_al_sa",
+    "name": "L'Oréal SA India Captive Entity",
     "parentCompany": "L'Oréal SA",
     "parentCountry": "FR",
-    "parentSector": "Consumer Goods/Retail",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "microMarket": "Outer Ring Road",
+    "parentSector": "Retail & Consumer Tech",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Outer Ring Road",
+        "centerName": "L'Oréal India Digital Operations – Bengaluru"
+      }
+    ],
     "headcountBand": "<500",
     "yearEstablished": 2022,
-    "functions": ["Data Science", "Digital Marketing", "Technology", "Finance"],
+    "functions": [
+      "Data Science",
+      "Digital Marketing",
+      "Technology",
+      "Finance"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -808,21 +1083,34 @@
     ],
     "confidence": "medium",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_honeywell_blr_001",
-    "name": "Honeywell India Technology Solutions",
-    "parentCompany": "Honeywell International Inc.",
-    "parentCountry": "US",
-    "parentSector": "Manufacturing/ER&D",
+    "lastUpdated": "2026-05-15",
     "city": "Bengaluru",
     "state": "Karnataka",
-    "microMarket": "Electronic City",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_honeywell_international_inc_",
+    "name": "Honeywell International Inc. India Captive Entity",
+    "parentCompany": "Honeywell International Inc.",
+    "parentCountry": "US",
+    "parentSector": "Automotive & Mobility ER&D",
+    "primaryHub": "Bengaluru",
+    "campuses": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "microMarket": "Electronic City",
+        "centerName": "Honeywell India Technology Solutions"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2006,
-    "functions": ["Engineering", "Industrial IoT", "Cybersecurity", "Data Science"],
+    "functions": [
+      "Engineering",
+      "Industrial IoT",
+      "Cybersecurity",
+      "Data Science"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -834,21 +1122,34 @@
     ],
     "confidence": "medium",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "totalUnitsInIndia": 1
   },
   {
-    "id": "gcc_qualcomm_hyd_001",
-    "name": "Qualcomm India Design Center – Hyderabad",
+    "id": "entity_qualcomm_technologies_inc_",
+    "name": "Qualcomm Technologies Inc. India Captive Entity",
     "parentCompany": "Qualcomm Technologies Inc.",
     "parentCountry": "US",
-    "parentSector": "Semiconductors/ER&D",
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "microMarket": "HITEC City (Mindspace)",
+    "parentSector": "Semiconductors & Electronics",
+    "primaryHub": "Hyderabad",
+    "campuses": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "microMarket": "HITEC City (Mindspace)",
+        "centerName": "Qualcomm India Design Center – Hyderabad"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 1997,
-    "functions": ["Chip Design", "5G/6G Engineering", "AI/ML", "Embedded Systems"],
+    "functions": [
+      "Chip Design",
+      "5G/6G Engineering",
+      "AI/ML",
+      "Embedded Systems"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -860,21 +1161,34 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_morningstar_hyd_001",
-    "name": "Morningstar India – Hyderabad",
-    "parentCompany": "Morningstar Inc.",
-    "parentCountry": "US",
-    "parentSector": "BFSI/FinTech",
+    "lastUpdated": "2026-05-15",
     "city": "Hyderabad",
     "state": "Telangana",
-    "microMarket": "HITEC City",
+    "totalUnitsInIndia": 1
+  },
+  {
+    "id": "entity_morningstar_inc_",
+    "name": "Morningstar Inc. India Captive Entity",
+    "parentCompany": "Morningstar Inc.",
+    "parentCountry": "US",
+    "parentSector": "BFSI & FinTech",
+    "primaryHub": "Hyderabad",
+    "campuses": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "microMarket": "HITEC City",
+        "centerName": "Morningstar India – Hyderabad"
+      }
+    ],
     "headcountBand": "2000-10000",
     "yearEstablished": 2004,
-    "functions": ["Finance Research", "Data Engineering", "Technology", "Analyst Operations"],
+    "functions": [
+      "Finance Research",
+      "Data Engineering",
+      "Technology",
+      "Analyst Operations"
+    ],
     "operatingModel": "wholly-owned",
     "sources": [
       {
@@ -886,33 +1200,9 @@
     ],
     "confidence": "high",
     "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
-  },
-  {
-    "id": "gcc_genpact_ncr_001",
-    "name": "Genpact India HQ – Gurugram",
-    "parentCompany": "Genpact Limited",
-    "parentCountry": "US",
-    "parentSector": "Professional Services/Technology",
-    "city": "Gurugram",
-    "state": "Haryana",
-    "microMarket": "DLF Cyber City",
-    "headcountBand": ">10000",
-    "yearEstablished": 1997,
-    "functions": ["Finance", "Operations", "AI/ML", "Technology"],
-    "operatingModel": "wholly-owned",
-    "sources": [
-      {
-        "url": "https://www.genpact.com/about/locations/india",
-        "publisher": "Genpact India",
-        "date": "2024-01-01",
-        "note": "Genpact India HQ, Gurugram; started as GE Capital captive (1997); now an independent GCC services firm; 50,000+ India staff"
-      }
-    ],
-    "confidence": "high",
-    "verified": true,
-    "verifiedDate": "2024-10-01",
-    "lastUpdated": "2024-10-01"
+    "lastUpdated": "2026-05-15",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "totalUnitsInIndia": 1
   }
 ]

@@ -7,15 +7,24 @@ export interface Source {
 
 export type ConfidenceLevel = 'high' | 'medium' | 'low';
 
-export interface GCC {
+export interface CampusLocation {
+  city: string;
+  state: string;
+  microMarket: string;
+  centerName: string;
+}
+
+export interface GCCEntity {
   id: string;
   name: string;
   parentCompany: string;
   parentCountry: string;
   parentSector: string;
-  city: string;
+  primaryHub: string;
+  city: string; // compatibility string (e.g., 'Bengaluru (+1 multi-city sites)')
   state: string;
-  microMarket?: string;
+  totalUnitsInIndia: number;
+  campuses: CampusLocation[];
   headcountBand: '<500' | '500-2000' | '2000-10000' | '>10000';
   yearEstablished: number;
   functions: string[];
@@ -23,7 +32,6 @@ export interface GCC {
   sources: Source[];
   confidence: ConfidenceLevel;
   verified: boolean;
-  verifiedDate?: string;
   lastUpdated: string;
 }
 
@@ -89,8 +97,8 @@ export interface PipelineSignal {
   targetCluster: string;
   investmentAnnounced: string;
   projectedHeadcount: string;
-  signalStage: string;
-  firstSignalDate: string;
+  signalStatus: string;
+  signalDate: string;
   leadIndicator: string;
   keyWorkloads: string[];
   filingEvidence: string;
@@ -105,10 +113,11 @@ export interface ServiceProvider {
   headquarters: string;
   yearFounded: number;
   operatingModel: string;
-  verifiedGccsEstablished: string;
+  deliveryVolume: string;
   confirmedPublicClients: string[];
   verifiedCapabilities: string[];
   pricingModel: string;
   officialSources: Source[];
+  conflictNote?: string;
   confidence: ConfidenceLevel;
 }

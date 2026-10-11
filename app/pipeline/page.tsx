@@ -86,7 +86,7 @@ export default function PipelinePage() {
                     {item.companyName}
                   </h2>
                   <span className="px-2.5 py-0.5 rounded text-[10px] font-semibold bg-[#E8F5E9] text-[#2E7D32] border border-[#C8E6C9]">
-                    {item.signalStage}
+                    {item.signalStatus}
                   </span>
                 </div>
                 <div className="text-xs text-[#5E646A] mt-0.5">
@@ -95,10 +95,10 @@ export default function PipelinePage() {
               </div>
 
               <div className="text-left sm:text-right text-xs">
-                <span className="text-[#8B929A] block text-[10px] uppercase font-medium">First Signal Date</span>
+                <span className="text-[#8B929A] block text-[10px] uppercase font-medium">Detection Date</span>
                 <span className="text-[#14171A] font-mono flex items-center sm:justify-end gap-1">
                   <Calendar className="w-3 h-3 text-[#5E646A]" />
-                  {item.firstSignalDate}
+                  {item.signalDate}
                 </span>
               </div>
             </div>

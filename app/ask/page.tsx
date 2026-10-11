@@ -35,13 +35,13 @@ export default function AskPage() {
   const [response, setResponse] = useState<ApiResponse | null>(null);
 
   const sampleQuestions = [
-    'How many GCCs are actually in India and why do reports disagree?',
-    'What is the rent difference between Bengaluru and Hyderabad for Grade-A space?',
-    'What payroll subsidies does Tamil Nadu offer for high-value GCC hires?',
-    'Which multinationals are coming next in the GCC pipeline?',
-    'Who are the top setup advisors and what do they charge?',
-    'Tell me about Microsoft India Development Center in Bengaluru',
-    'Who is the CEO of an unverified speculative startup in 2030?' // Triggers explicit refusal
+    'How many GCC entities vs physical units exist in India and why do reports disagree?',
+    'What is the Grade-A office rent difference between Bengaluru and Hyderabad?',
+    'What payroll subsidies does Tamil Nadu offer under its Special Scheme?',
+    'Which multinationals have 2026 incoming GCC pipeline signals?',
+    'Who are the top setup advisors and what are Zinnov\'s conflict of interest disclosures?',
+    'Tell me about Microsoft India captive entity and its campuses',
+    'What were Google India\'s internal quarterly financial earnings last week?' // Real out-of-scope question triggering authentic refusal
   ];
 
   const handleSubmit = async (qText?: string) => {
@@ -82,7 +82,7 @@ export default function AskPage() {
           Query the GCC Knowledge Graph
         </h1>
         <p className="text-sm sm:text-base text-[#5E646A] leading-relaxed max-w-2xl">
-          Ask complex questions about commercial office rents, state subsidy eligibility, count reconciliations, or specific entity structures. Every response is <strong>synthesized strictly from verified dataset rows</strong> and carries verifiable primary citations.
+          Ask complex questions about commercial office rents, state subsidy eligibility, count reconciliations, or specific entity structures. Every response is <strong>synthesized dynamically from verified dataset rows</strong> and carries verifiable primary citations.
         </p>
       </div>
 
@@ -181,7 +181,7 @@ export default function AskPage() {
                     className="p-3.5 rounded-lg bg-[#F7F5F0] border border-[#E8E5DE] text-xs space-y-1"
                   >
                     <div className="flex items-center justify-between font-semibold text-[#14171A]">
-                      <span>{c.publisher}</span>
+                      <span>{c.entity}</span>
                       {c.url && (
                         <a
                           href={c.url}

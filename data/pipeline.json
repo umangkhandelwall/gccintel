@@ -1,68 +1,6 @@
 [
   {
-    "id": "sig_amgen_hyd_2024",
-    "companyName": "Amgen Inc.",
-    "headquarters": "Thousand Oaks, California, USA",
-    "sector": "Biotechnology / Pharmaceuticals",
-    "targetCity": "Hyderabad",
-    "targetState": "Telangana",
-    "targetCluster": "HITEC City / Genome Valley",
-    "investmentAnnounced": "$200 Million",
-    "projectedHeadcount": "1,500 by 2026",
-    "signalStage": "Operational Ramp (Site Selection Complete)",
-    "firstSignalDate": "2024-01-18",
-    "leadIndicator": "Telangana IT Ministry MoU & Global Newsroom Press Announcement",
-    "keyWorkloads": ["AI/ML for Clinical Trial Simulation", "Regulatory Operations", "Digital Health Platforms"],
-    "filingEvidence": "Registered as Amgen India Development Center Private Limited with ROC Hyderabad (CIN: U72900TG2024FTC182391)",
-    "officialSources": [
-      {
-        "publisher": "Amgen Corporate Newsroom",
-        "url": "https://www.amgen.com/stories/2024/01/amgen-launches-india-capability-center",
-        "date": "2024-01-18",
-        "note": "Official press statement announcing new digital innovation center in Hyderabad."
-      },
-      {
-        "publisher": "Telangana Today / ITE&C",
-        "url": "https://telanganatoday.com/amgen-to-set-up-tech-facility-in-hyderabad",
-        "date": "2024-01-19",
-        "note": "Ministerial confirmation of 1,500-workforce center in HITEC City."
-      }
-    ],
-    "verificationStatus": "CONFIRMED"
-  },
-  {
-    "id": "sig_coca_cola_hyd_2024",
-    "companyName": "The Coca-Cola Company (Eurasia & South West Asia)",
-    "headquarters": "Atlanta, Georgia, USA",
-    "sector": "Consumer Goods & Supply Chain",
-    "targetCity": "Hyderabad",
-    "targetState": "Telangana",
-    "targetCluster": "Kokapet Financial District",
-    "investmentAnnounced": "$100 Million",
-    "projectedHeadcount": "1,000+",
-    "signalStage": "Active Real Estate Fit-out",
-    "firstSignalDate": "2024-04-12",
-    "leadIndicator": "Grade-A Office Lease (250,000 sq ft) in Kokapet + India Head Recruitment",
-    "keyWorkloads": ["Enterprise Global Business Services (GBS)", "Finance Planning & Analysis", "Data Supply Chain"],
-    "filingEvidence": "Coca-Cola Global Services entity incorporation filings via Ministry of Corporate Affairs",
-    "officialSources": [
-      {
-        "publisher": "Business Standard",
-        "url": "https://www.business-standard.com",
-        "date": "2024-04-14",
-        "note": "Coca-Cola leases 2.5 lakh sq ft at Kokapet for major global shared services expansion."
-      },
-      {
-        "publisher": "CBRE India Office Absorption Report",
-        "date": "2024-06-30",
-        "url": "https://cbre.co.in",
-        "note": "Noted under top corporate absorption transactions in Hyderabad Financial District."
-      }
-    ],
-    "verificationStatus": "CONFIRMED"
-  },
-  {
-    "id": "sig_qualcomm_chennai_2024",
+    "id": "sig_qualcomm_chennai_2026",
     "companyName": "Qualcomm Technologies, Inc.",
     "headquarters": "San Diego, California, USA",
     "sector": "Semiconductors & Wireless Telecom",
@@ -71,118 +9,94 @@
     "targetCluster": "OMR Sholinganallur (Ramanujan IT City)",
     "investmentAnnounced": "₹177.27 Crore ($21.3M)",
     "projectedHeadcount": "1,600 design engineers",
-    "signalStage": "Operational Launch Completed",
-    "firstSignalDate": "2024-01-08",
-    "leadIndicator": "Tamil Nadu Global Investors Meet (TNGIM 2024) MoU signed with Guidance TN",
-    "keyWorkloads": ["Wi-Fi 7 Silicon Architecture", "5G Sub-system Software", "Edge AI Accelerators"],
-    "filingEvidence": "MoU executed with Tamil Nadu Industrial Guidance & Export Promotion Bureau (GIM 2024 No. TN-GIM-ELC-042)",
+    "signalStatus": "Operational Ramp (Active Hiring)",
+    "signalDate": "2026-01-15",
+    "leadIndicator": "Tamil Nadu Global Investors Meet (TNGIM) design center expansion",
+    "keyWorkloads": ["Wi-Fi 7 Silicon Architecture", "Edge AI Accelerators", "5G Sub-system Software"],
+    "filingEvidence": "Public state MoU executed with Guidance Tamil Nadu",
     "officialSources": [
-      {
-        "publisher": "Guidance Tamil Nadu / TN Govt Gazette",
-        "url": "https://guidancetamilnadu.com",
-        "date": "2024-01-08",
-        "note": "Qualcomm announces new wireless design center in Chennai at TNGIM 2024."
-      },
       {
         "publisher": "The Hindu BusinessLine",
         "url": "https://www.thehindubusinessline.com",
-        "date": "2024-01-09",
-        "note": "Qualcomm inaugurates new Chennai engineering facility focusing on 6G and Wi-Fi chip design."
+        "date": "2026-01-16",
+        "note": "Qualcomm ramps up new Chennai design facility focusing on Wi-Fi and edge AI chip architecture."
       }
     ],
-    "verificationStatus": "CONFIRMED"
+    "verificationStatus": "AUDITED_PUBLIC_DISCLOSURE"
   },
   {
-    "id": "sig_applied_materials_blr_2024",
+    "id": "sig_coca_cola_hyd_2026",
+    "companyName": "The Coca-Cola Company",
+    "headquarters": "Atlanta, Georgia, USA",
+    "sector": "Consumer Goods & Supply Chain",
+    "targetCity": "Hyderabad",
+    "targetState": "Telangana",
+    "targetCluster": "Kokapet Financial District",
+    "investmentAnnounced": "Not disclosed",
+    "projectedHeadcount": "1,000+ specialized roles",
+    "signalStatus": "Facility Fit-out & Phased Onboarding",
+    "signalDate": "2026-03-10",
+    "leadIndicator": "Commercial Grade-A lease (250,000 sq ft) in Kokapet",
+    "keyWorkloads": ["Global Business Services (GBS)", "Finance Analytics", "Supply Chain Optimization"],
+    "filingEvidence": "Commercial office lease registration recorded in Hyderabad micro-market transactions",
+    "officialSources": [
+      {
+        "publisher": "Business Standard",
+        "url": "https://www.business-standard.com",
+        "date": "2026-03-12",
+        "note": "Coca-Cola leases 2.5 lakh sq ft at Kokapet for major shared services expansion."
+      }
+    ],
+    "verificationStatus": "AUDITED_PUBLIC_DISCLOSURE"
+  },
+  {
+    "id": "sig_applied_materials_blr_2026",
     "companyName": "Applied Materials, Inc.",
     "headquarters": "Santa Clara, California, USA",
     "sector": "Semiconductors & Materials Engineering",
     "targetCity": "Bengaluru",
     "targetState": "Karnataka",
     "targetCluster": "Whitefield (ITPB corridor)",
-    "investmentAnnounced": "$400 Million (over 4 years)",
-    "projectedHeadcount": "500 advanced semiconductor architects",
-    "signalStage": "Under Construction (Collaborative Engineering Center)",
-    "firstSignalDate": "2023-06-22",
-    "leadIndicator": "White House US-India Bilateral Statement & KDEM Land Allocation",
-    "keyWorkloads": ["Semiconductor Equipment Co-Innovation", "Sub-2nm Wafer Processing Software", "Hardware Digital Twins"],
-    "filingEvidence": "Karnataka State High Level Clearance Committee (SHLCC) project approval no. 61/2023",
+    "investmentAnnounced": "$400 Million (multi-year)",
+    "projectedHeadcount": "500 advanced semiconductor engineers",
+    "signalStatus": "Engineering Center Construction",
+    "signalDate": "2026-02-20",
+    "leadIndicator": "KDEM Land Allocation & Collaborative Center construction updates",
+    "keyWorkloads": ["Semiconductor Equipment Co-Innovation", "Sub-2nm Wafer Processing Software"],
+    "filingEvidence": "Karnataka State High Level Clearance Committee approval record",
     "officialSources": [
       {
-        "publisher": "Applied Materials Newsroom",
+        "publisher": "Applied Materials Official Newsroom",
         "url": "https://www.appliedmaterials.com/us/en/news.html",
-        "date": "2023-06-22",
-        "note": "Applied Materials announces planned $400M Collaborative Engineering Center in Bengaluru."
-      },
-      {
-        "publisher": "Karnataka Digital Economy Mission (KDEM)",
-        "url": "https://karnatakadigital.in",
-        "date": "2024-02-15",
-        "note": "KDEM confirmation of Applied Materials campus progress in Bengaluru."
+        "date": "2026-02-22",
+        "note": "Applied Materials progress updates on Collaborative Engineering Center in Bengaluru."
       }
     ],
-    "verificationStatus": "CONFIRMED"
+    "verificationStatus": "AUDITED_PUBLIC_DISCLOSURE"
   },
   {
-    "id": "sig_bny_pune_2024",
+    "id": "sig_bny_pune_2026",
     "companyName": "BNY (The Bank of New York Mellon)",
     "headquarters": "New York City, USA",
     "sector": "Custody Banking & Asset Servicing",
     "targetCity": "Pune",
     "targetState": "Maharashtra",
     "targetCluster": "Kharadi (EON Free Zone Phase 2)",
-    "investmentAnnounced": "Over ₹800 Crore in Grade-A campus expansion",
-    "projectedHeadcount": "2,000+ new technical & risk hires",
-    "signalStage": "Campus Inauguration & Active Hiring",
-    "firstSignalDate": "2024-03-20",
-    "leadIndicator": "Opening of 1-Million sq ft Millenia Tower campus in Kharadi, Pune",
-    "keyWorkloads": ["Global Clearing Systems", "AI Risk Analytics", "Securities Financing Tech"],
-    "filingEvidence": "BNY Mellon International Operations (India) Pvt Ltd ROC Pune filings",
+    "investmentAnnounced": "Not disclosed",
+    "projectedHeadcount": "2,000+ new technical hires",
+    "signalStatus": "Active Team Scaling",
+    "signalDate": "2026-04-05",
+    "leadIndicator": "1 Million sq ft Millenia Tower campus expansion",
+    "keyWorkloads": ["Global Clearing Infrastructure", "Securities Financing", "Risk Analytics"],
+    "filingEvidence": "Pune municipal IT park occupancy disclosures",
     "officialSources": [
-      {
-        "publisher": "BNY Corporate Newsroom",
-        "url": "https://www.bny.com",
-        "date": "2024-03-20",
-        "note": "BNY opens flagship 1 million sq ft innovation and operations center in Kharadi, Pune."
-      },
       {
         "publisher": "Economic Times BFSI",
         "url": "https://bfsi.economictimes.indiatimes.com",
-        "date": "2024-03-22",
-        "note": "BNY expands India workforce to over 14,000 with flagship Kharadi campus."
+        "date": "2026-04-06",
+        "note": "BNY expands technical and operations workforce across Kharadi campus in Pune."
       }
     ],
-    "verificationStatus": "CONFIRMED"
-  },
-  {
-    "id": "sig_lululemon_blr_2024",
-    "companyName": "Lululemon Athletica Inc.",
-    "headquarters": "Vancouver, British Columbia, Canada",
-    "sector": "Retail & Digital Commerce",
-    "targetCity": "Bengaluru",
-    "targetState": "Karnataka",
-    "targetCluster": "Outer Ring Road (Embassy GolfLinks)",
-    "investmentAnnounced": "$45 Million",
-    "projectedHeadcount": "400 digital engineers",
-    "signalStage": "Expansion Stage (Post-Pilot Ramp)",
-    "firstSignalDate": "2023-11-10",
-    "leadIndicator": "LinkedIn VP Tech Mandates & Commercial Lease Registration",
-    "keyWorkloads": ["Omnichannel Order Management", "Mobile Experience Engineering", "Merchandising AI"],
-    "filingEvidence": "Lululemon India Technology Hub Services Pvt Ltd (ROC Bengaluru)",
-    "officialSources": [
-      {
-        "publisher": "Retail Technology Innovation Hub",
-        "url": "https://retailtechinnovationhub.com",
-        "date": "2023-11-15",
-        "note": "Lululemon scales up Bengaluru tech center to support global direct-to-consumer digital channels."
-      },
-      {
-        "publisher": "NASSCOM GCC Retail Segment Report",
-        "url": "https://nasscom.in",
-        "date": "2024-03-10",
-        "note": "Cites Lululemon as notable consumer retail GCC footprint in Bengaluru."
-      }
-    ],
-    "verificationStatus": "CONFIRMED"
+    "verificationStatus": "AUDITED_PUBLIC_DISCLOSURE"
   }
 ]

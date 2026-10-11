@@ -4,14 +4,14 @@ import policiesData from '@/data/policies.json';
 import reconciliationData from '@/data/reconciliation.json';
 import pipelineData from '@/data/pipeline.json';
 import providersData from '@/data/providers.json';
-import { GCC, CityData, StatePolicy, ReconciliationItem, PipelineSignal, ServiceProvider } from './types';
+import { GCCEntity, CityData, StatePolicy, ReconciliationItem, PipelineSignal, ServiceProvider } from './types';
 
-export function getAllGCCs(): GCC[] {
-  return gccsData as GCC[];
+export function getAllGCCs(): GCCEntity[] {
+  return gccsData as GCCEntity[];
 }
 
-export function getGCCById(id: string): GCC | undefined {
-  return (gccsData as GCC[]).find((item) => item.id === id);
+export function getGCCById(id: string): GCCEntity | undefined {
+  return (gccsData as GCCEntity[]).find((item) => item.id === id);
 }
 
 export function getAllCities(): CityData[] {
@@ -47,7 +47,7 @@ export function getAllProviders(): ServiceProvider[] {
 // Pure Aggregates for Data Views and Tests
 export function getSectorAggregates(): Record<string, number> {
   const map: Record<string, number> = {};
-  (gccsData as GCC[]).forEach((item) => {
+  (gccsData as GCCEntity[]).forEach((item) => {
     map[item.parentSector] = (map[item.parentSector] || 0) + 1;
   });
   return map;
@@ -55,15 +55,15 @@ export function getSectorAggregates(): Record<string, number> {
 
 export function getCityAggregates(): Record<string, number> {
   const map: Record<string, number> = {};
-  (gccsData as GCC[]).forEach((item) => {
-    map[item.city] = (map[item.city] || 0) + 1;
+  (gccsData as GCCEntity[]).forEach((item) => {
+    map[item.primaryHub] = (map[item.primaryHub] || 0) + 1;
   });
   return map;
 }
 
 export function getParentCountryAggregates(): Record<string, number> {
   const map: Record<string, number> = {};
-  (gccsData as GCC[]).forEach((item) => {
+  (gccsData as GCCEntity[]).forEach((item) => {
     map[item.parentCountry] = (map[item.parentCountry] || 0) + 1;
   });
   return map;

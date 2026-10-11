@@ -6,15 +6,14 @@ import { usePathname } from 'next/navigation';
 import { 
   Building2, 
   MapPin, 
-  FileText, 
   Scale, 
   Radio, 
   Briefcase, 
+  Calculator, 
+  FileCheck2, 
   Terminal, 
   Menu, 
-  X,
-  ChevronRight,
-  Globe2
+  X
 } from 'lucide-react';
 
 export const Navbar = () => {
@@ -23,13 +22,15 @@ export const Navbar = () => {
 
   const navLinks = [
     { href: '/', label: 'Overview' },
+    { href: '/calculator', label: 'Setup Estimator', highlight: true },
     { href: '/explorer', label: 'GCC Registry' },
-    { href: '/pipeline', label: 'Pipeline Signals', isNew: true },
     { href: '/comparator', label: 'City Comparator' },
     { href: '/reconciliation', label: 'Count Audit' },
+    { href: '/pipeline', label: 'Pipeline Signals' },
     { href: '/policies', label: 'State Policies' },
     { href: '/providers', label: 'Providers' },
-    { href: '/ask', label: 'Intelligence Terminal' },
+    { href: '/methodology', label: 'Methodology' },
+    { href: '/ask', label: 'Terminal Q&A' },
   ];
 
   return (
@@ -56,47 +57,42 @@ export const Navbar = () => {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav className="hidden xl:flex items-center gap-1">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
             return (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`px-3 py-1.5 rounded-md text-xs font-medium transition flex items-center gap-1.5 ${
+                className={`px-2.5 py-1.5 rounded-md text-xs font-medium transition flex items-center gap-1 ${
                   isActive
                     ? 'bg-[#16423C] text-white'
+                    : link.highlight
+                    ? 'bg-[#F0EDE6] text-[#16423C] hover:bg-[#E8E5DE]'
                     : 'text-[#4A5056] hover:text-[#14171A] hover:bg-[#F0EDE6]'
                 }`}
               >
                 <span>{link.label}</span>
-                {link.isNew && (
-                  <span className={`text-[9px] font-mono px-1 py-0.2 rounded font-bold ${
-                    isActive ? 'bg-white/20 text-white' : 'bg-[#E76F51]/15 text-[#E76F51]'
-                  }`}>
-                    NEW
-                  </span>
-                )}
               </Link>
             );
           })}
         </nav>
 
-        {/* Global Access / Action */}
-        <div className="hidden sm:flex items-center gap-3">
+        {/* Action Button */}
+        <div className="hidden sm:flex items-center gap-2">
           <Link
-            href="/ask"
+            href="/calculator"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-[#16423C] hover:bg-[#2D6A4F] text-white text-xs font-semibold transition shadow-sm"
           >
-            <Terminal className="w-3.5 h-3.5" />
-            <span>Launch Terminal</span>
+            <Calculator className="w-3.5 h-3.5" />
+            <span>Setup Estimator</span>
           </Link>
         </div>
 
-        {/* Mobile toggle */}
+        {/* Mobile menu button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden p-2 rounded-md text-[#4A5056] hover:text-[#14171A] hover:bg-[#F0EDE6]"
+          className="xl:hidden p-2 rounded-md text-[#4A5056] hover:text-[#14171A] hover:bg-[#F0EDE6]"
           aria-label="Toggle Navigation"
         >
           {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -105,7 +101,7 @@ export const Navbar = () => {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-b border-[#E8E5DE] bg-[#FDFBF7] px-4 py-3 space-y-1">
+        <div className="xl:hidden border-b border-[#E8E5DE] bg-[#FDFBF7] px-4 py-3 space-y-1">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
             return (
@@ -120,11 +116,6 @@ export const Navbar = () => {
                 }`}
               >
                 <span>{link.label}</span>
-                {link.isNew && (
-                  <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-[#E76F51]/15 text-[#E76F51]">
-                    NEW
-                  </span>
-                )}
               </Link>
             );
           })}

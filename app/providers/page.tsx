@@ -54,7 +54,7 @@ export default function ProvidersPage() {
 
               <div className="p-3 bg-[#F7F5F0] border border-[#E8E5DE] rounded-lg text-xs sm:text-right">
                 <span className="text-[#8B929A] block text-[10px] uppercase font-medium">Verified Delivery Track Record</span>
-                <span className="text-[#16423C] font-semibold text-xs">{p.verifiedGccsEstablished}</span>
+                <span className="text-[#16423C] font-semibold text-xs">{p.deliveryVolume}</span>
               </div>
             </div>
 
@@ -70,6 +70,12 @@ export default function ProvidersPage() {
                 <span className="text-[#14171A] font-medium leading-relaxed block">{p.pricingModel}</span>
               </div>
             </div>
+
+            {p.conflictNote && (
+              <div className="p-3 bg-[#FFF8E1] border border-[#FFE082] rounded-lg text-xs text-[#E65100] leading-relaxed">
+                <strong>Conflict Disclosure: </strong> {p.conflictNote}
+              </div>
+            )}
 
             {/* Confirmed Clients & Capabilities */}
             <div className="space-y-3 text-xs">

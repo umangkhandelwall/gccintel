@@ -216,8 +216,8 @@ export default function ExplorerPage() {
                   <span className="text-[#14171A] font-semibold">{activeRecord.city}, {activeRecord.state}</span>
                 </div>
                 <div>
-                  <span className="text-[#8B929A] block text-[10px] uppercase">Micro-Market</span>
-                  <span className="text-[#14171A] font-semibold">{activeRecord.microMarket || 'Central Campus'}</span>
+                  <span className="text-[#8B929A] block text-[10px] uppercase">Campus Centers</span>
+                  <span className="text-[#14171A] font-semibold">{activeRecord.campuses.map(c => `${c.city} (${c.microMarket})`).join(' • ')}</span>
                 </div>
                 <div>
                   <span className="text-[#8B929A] block text-[10px] uppercase">Operating Model</span>
