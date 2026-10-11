@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fdfbf7;
+  --foreground: #14171a;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.font-editorial {
+  font-family: "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif;
+}

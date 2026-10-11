@@ -1,0 +1,209 @@
+[
+  {
+    "id": "karnataka-gcc-2024",
+    "state": "Karnataka",
+    "policyName": "Karnataka Global Capability Centre (GCC) Policy 2024–2029",
+    "policyYear": 2024,
+    "nodalAgency": "Karnataka Digital Economy Mission (KDEM) + Dept. of IT/BT",
+    "target": "500 new GCCs, 3.5 lakh jobs, USD 50B economic output by 2029",
+    "incentives": [
+      {
+        "type": "internship_stipend",
+        "description": "50% reimbursement of internship stipends for up to 100,000 engineering & graduate students",
+        "quantifiedValue": "Up to ₹10,000/intern/month for 3-6 months"
+      },
+      {
+        "type": "electricity_duty",
+        "description": "5-year exemption on electricity duty for GCC operations set up in 'Beyond Bengaluru' clusters",
+        "quantifiedValue": "100% duty exemption for 5 years"
+      },
+      {
+        "type": "rental_subsidy",
+        "description": "Rental reimbursement for setup in Tier-2/3 clusters (Mysuru, Mangaluru, Hubballi-Dharwad)",
+        "quantifiedValue": "Up to 25% of lease rental for first 3 years"
+      },
+      {
+        "type": "rd_grant",
+        "description": "Innovation grant for dedicated AI / DeepTech Centers of Excellence",
+        "quantifiedValue": "Up to 40% of capex capped at ₹50 Cr"
+      }
+    ],
+    "eligibilityCriteria": [
+      "Minimum 100 full-time direct employees within 24 months",
+      "Direct wholly-owned captive or licensed BOT model",
+      "Registered with KDEM single-window clearance portal"
+    ],
+    "applicationProcess": "Online via karnatakadigital.in single-window clearance; 45-day statutory SLA",
+    "officialUrl": "https://karnatakadigital.in",
+    "sources": [
+      {
+        "url": "https://karnatakadigital.in",
+        "publisher": "KDEM Bengaluru Tech Summit Notification",
+        "date": "2024-11-19",
+        "note": "Official rollout of Karnataka GCC Policy 2024-2029"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "tamilnadu-gcc-2024",
+    "state": "Tamil Nadu",
+    "policyName": "Tamil Nadu Special Scheme to Promote Global Capability Centres",
+    "policyYear": 2024,
+    "nodalAgency": "Guidance Tamil Nadu",
+    "target": "Create 100,000+ high-end tech & ER&D jobs across Chennai & Tier-2 cities",
+    "incentives": [
+      {
+        "type": "payroll_subsidy",
+        "description": "Tiered payroll cash subsidy for high-value hires (monthly CTC ≥ ₹1 Lakh)",
+        "quantifiedValue": "Year 1: 30%, Year 2: 20%, Year 3: 10% of gross payroll"
+      },
+      {
+        "type": "stamp_duty",
+        "description": "100% stamp duty exemption on lease or purchase of office land/spaces",
+        "quantifiedValue": "100% exemption across TIDEL and designated parks"
+      },
+      {
+        "type": "upskilling_grant",
+        "description": "Financial reimbursement for AI/ML and advanced skills certification via Naan Mudhalvan",
+        "quantifiedValue": "₹20,000 per employee certified"
+      }
+    ],
+    "eligibilityCriteria": [
+      "Parent MNC listed in Forbes Global 2000 OR Fortune 1000",
+      "Minimum 200 direct employees with monthly CTC ≥ ₹100,000",
+      "Employees must be resident/domiciled in Tamil Nadu"
+    ],
+    "applicationProcess": "Direct application through Guidance Tamil Nadu single window; evaluated by Inter-Departmental Committee",
+    "officialUrl": "https://guidancetamilnadu.com",
+    "sources": [
+      {
+        "url": "https://guidancetamilnadu.com",
+        "publisher": "Guidance Tamil Nadu State Budget Orders",
+        "date": "2024-04-15",
+        "note": "Special payroll subsidy guidelines notified for Fortune 1000 entrants"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "telangana-gcc-2024",
+    "state": "Telangana",
+    "policyName": "Telangana TS-iPASS IT & Frontier Tech Framework",
+    "policyYear": 2024,
+    "nodalAgency": "Invest Telangana & ITE&C Department",
+    "target": "Position Hyderabad as global AI & Semiconductor GCC hub",
+    "incentives": [
+      {
+        "type": "fast_track_clearance",
+        "description": "Statutory self-certification under TS-iPASS with deemed approval",
+        "quantifiedValue": "Guaranteed 15-day approval SLA with penalty on officers for delay"
+      },
+      {
+        "type": "power_tariff",
+        "description": "Industrial power tariff classification rather than commercial rate",
+        "quantifiedValue": "Saving of ₹1.5 - ₹2.2 per electricity unit consumed"
+      },
+      {
+        "type": "thub_access",
+        "description": "GCC Sherpas & T-Hub Co-Innovation partnership grants for AI pilots",
+        "quantifiedValue": "Subsidized corporate access to T-Hub innovation labs"
+      }
+    ],
+    "eligibilityCriteria": [
+      "Investment in IT/ITES/R&D with registered legal entity in Telangana",
+      "Focus on high-value roles in AI, Life Sciences, Cloud, or Hardware"
+    ],
+    "applicationProcess": "Self-certification application via ipass.telangana.gov.in portal",
+    "officialUrl": "https://ipass.telangana.gov.in",
+    "sources": [
+      {
+        "url": "https://investtelangana.in",
+        "publisher": "Invest Telangana Official Portal",
+        "date": "2024-05-01",
+        "note": "TS-iPASS single-window statutory policy data"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "maharashtra-gcc-2025",
+    "state": "Maharashtra",
+    "policyName": "Maharashtra Global Capability Centre Policy 2025",
+    "policyYear": 2025,
+    "nodalAgency": "MahaIT / Directorate of Industries",
+    "target": "400 new GCCs and 400,000 jobs by 2030 across Pune and Mumbai",
+    "incentives": [
+      {
+        "type": "payroll_subsidy",
+        "description": "40-50% payroll assistance for high-skill employees earning >₹1 Lakh/mo",
+        "quantifiedValue": "Up to 50% for 3 years (+10% bonus if ≥50% women/PwD workforce)"
+      },
+      {
+        "type": "capital_or_rental",
+        "description": "Choice between capex subsidy or long-term lease rental assistance",
+        "quantifiedValue": "Up to ₹100 Cr capex grant OR 20% rental subsidy for 5 years"
+      },
+      {
+        "type": "stamp_duty",
+        "description": "100% waiver of stamp duty on registration of primary lease documents",
+        "quantifiedValue": "100% stamp duty waiver"
+      }
+    ],
+    "eligibilityCriteria": [
+      "Classified tier: Small (100-250 staff), Medium (250-500), Large (500-1500), Mega (>1500)",
+      "Strict exclusion of third-party call centers and generic sales offices"
+    ],
+    "applicationProcess": "Application through MAITRI Single Window portal (maitri.mahaonline.gov.in)",
+    "officialUrl": "https://maitri.mahaonline.gov.in",
+    "sources": [
+      {
+        "url": "https://mahaeit.gov.in",
+        "publisher": "Government of Maharashtra IT & ITeS Department",
+        "date": "2025-01-10",
+        "note": "Maharashtra GCC Policy notification"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "gujarat-gift-2025",
+    "state": "Gujarat",
+    "policyName": "Gujarat GCC Policy & GIFT City IFSC Tech Framework",
+    "policyYear": 2025,
+    "nodalAgency": "Dept of Science & Technology + IFSCA",
+    "target": "250+ BFSI and Fintech GCCs with ₹10,000 Cr investment",
+    "incentives": [
+      {
+        "type": "tax_holiday",
+        "description": "100% Corporate Tax exemption for 10 consecutive years out of 15 years in GIFT IFSC",
+        "quantifiedValue": "10-year corporate tax holiday"
+      },
+      {
+        "type": "capex_support",
+        "description": "Direct capital expenditure assistance on IT hardware & server infrastructure",
+        "quantifiedValue": "Up to ₹50 Cr for mid-market (<₹250 Cr) and up to ₹200 Cr for mega GCCs"
+      },
+      {
+        "type": "epf_reimbursement",
+        "description": "100% employer EPF contribution reimbursement for direct hires",
+        "quantifiedValue": "100% employer EPF share covered for 5 years"
+      }
+    ],
+    "eligibilityCriteria": [
+      "FinTech, BFSI Analytics, Risk or Global Treasury mandate in GIFT IFSC",
+      "Unified IFSCA registration or Gujarat DST accreditation"
+    ],
+    "applicationProcess": "IFSCA unified single window portal (ifsca.gov.in) / Gujarat DST",
+    "officialUrl": "https://giftcity.in",
+    "sources": [
+      {
+        "url": "https://giftcity.in",
+        "publisher": "GIFT City Authority & IFSCA Gazette",
+        "date": "2024-12-01",
+        "note": "IFSCA FinTech & Global In-House Center incentive structure"
+      }
+    ],
+    "confidence": "high"
+  }
+]

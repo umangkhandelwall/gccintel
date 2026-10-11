@@ -1,0 +1,74 @@
+[
+  {
+    "source": "NASSCOM-Zinnov Annual Report",
+    "year": 2024,
+    "reportedCount": 1700,
+    "countType": "Unique Corporate Entities",
+    "definition": "Captive MNC-owned legal subsidiaries operating in India with established product, ER&D, or shared services mandates. Excludes pure-play third party IT/BPO service providers and units under 50 employees.",
+    "whyItDiffers": "Conservative baseline counting only distinct parent corporations with fully incorporated wholly-owned Indian entities.",
+    "revenue": "$64.6 Billion",
+    "headcount": "1.90 Million",
+    "confidence": "high",
+    "url": "https://nasscom.in"
+  },
+  {
+    "source": "NASSCOM-Zinnov Units Metric",
+    "year": 2024,
+    "reportedCount": 2975,
+    "countType": "Physical Operational Centers / Sites",
+    "definition": "Individual physical campuses or multi-city delivery locations. A single corporation (e.g. JPMorgan or Amazon) with offices across Bengaluru, Hyderabad, and Mumbai is tallied as 3 distinct centers.",
+    "whyItDiffers": "Measures physical real estate footprint and city dispersion rather than parent entity consolidation.",
+    "revenue": "$64.6 Billion",
+    "headcount": "1.90 Million",
+    "confidence": "high",
+    "url": "https://nasscom.in"
+  },
+  {
+    "source": "NASSCOM-Zinnov 2026 Updated Benchmark",
+    "year": 2026,
+    "reportedCount": 2117,
+    "countType": "Unique Corporate Entities",
+    "definition": "Updated corporate registry tracking post-2024 surge, expanding criteria to include venture-backed scaleups ($100M+ ARR) establishing strategic engineering centers in India.",
+    "whyItDiffers": "Reflects 24 months of post-FY24 net new entrants and broadening of the mid-market definition.",
+    "revenue": "$98.4 Billion",
+    "headcount": "2.36 Million",
+    "confidence": "high",
+    "url": "https://nasscom.in"
+  },
+  {
+    "source": "ANSR Quarterly Landscape",
+    "year": 2024,
+    "reportedCount": 1900,
+    "countType": "Corporate Entities (incl. Emerging)",
+    "definition": "Includes both incorporated entities and active Employer-of-Record (EOR) / BOT 'pre-incorporation' units that function as dedicated GCCs under partner umbrellas.",
+    "whyItDiffers": "Broader boundary capturing companies in incubation or early growth phase before formal ROC incorporation.",
+    "revenue": "UNVERIFIED",
+    "headcount": "2.10 Million",
+    "confidence": "medium",
+    "url": "https://ansr.in"
+  },
+  {
+    "source": "Deloitte India GCC Survey",
+    "year": 2024,
+    "reportedCount": 1780,
+    "countType": "Corporate Entities",
+    "definition": "Captive MNC operations with minimum headcount thresholds (>100 staff) based on client and regulatory tax reporting audits.",
+    "whyItDiffers": "Blends NASSCOM baseline with proprietary transfer-pricing tax client databases.",
+    "revenue": "UNVERIFIED",
+    "headcount": "1.90 Million",
+    "confidence": "medium",
+    "url": "https://deloitte.com"
+  },
+  {
+    "source": "General Business Press / Casual Citations",
+    "year": 2024,
+    "reportedCount": 2000,
+    "countType": "Approximation / Vague Aggregation",
+    "definition": "Casual rounded figure repeatedly cited in headlines, conflating corporate entities with active leases or projected 2025 thresholds.",
+    "whyItDiffers": "Journalistic shorthand that lacks explicit definitional boundaries or reconciliation footnotes.",
+    "revenue": "UNVERIFIED",
+    "headcount": "~2.0 Million",
+    "confidence": "low",
+    "url": "https://economictimes.indiatimes.com"
+  }
+]

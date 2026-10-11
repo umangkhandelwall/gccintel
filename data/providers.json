@@ -1,0 +1,157 @@
+[
+  {
+    "id": "prov_ansr",
+    "name": "ANSR (ansr.in)",
+    "category": "End-to-End GCC Advisory & BOT Enabler",
+    "headquarters": "Bengaluru, Karnataka (Offices in Dallas & Dubai)",
+    "yearFounded": 2004,
+    "operatingModel": "GCC-as-a-Service, BOT (Build-Operate-Transfer), Managed Teams",
+    "verifiedGccsEstablished": "120+ GCCs across India",
+    "confirmedPublicClients": [
+      "Target (Bengaluru GIC)",
+      "Wells Fargo (India Solutions)",
+      "Lowe's (India Technology Center)",
+      "Delta Air Lines (Bengaluru Tech)",
+      "Falabella (Retail Tech Hub)",
+      "Giant Eagle (Digital Innovation)"
+    ],
+    "verifiedCapabilities": [
+      "Talent Acquisition via proprietary 1Wrk platform",
+      "Real estate workspace design & turnkey leasing",
+      "Statutory ROC incorporation & transfer-pricing structuring",
+      "Full entity incubation and operational transition management"
+    ],
+    "pricingModel": "Retainer + Per-seat managed fee ($250-$450/seat/mo) + Transfer success markup",
+    "officialSources": [
+      {
+        "publisher": "ANSR Official Company Disclosures & Case Studies",
+        "url": "https://ansr.in",
+        "date": "2024-05-01",
+        "note": "Documented track record of 120+ GCC establishments representing 120,000+ jobs."
+      },
+      {
+        "publisher": "Economic Times / VCCircle",
+        "url": "https://economictimes.indiatimes.com",
+        "date": "2023-08-20",
+        "note": "Accenture acquisition of minority stake in ANSR to expand joint GCC setup capabilities."
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "prov_zinnov",
+    "name": "Zinnov Management Consulting",
+    "category": "GCC Strategy Consulting & Maturity Benchmarking",
+    "headquarters": "Bengaluru, Karnataka (Offices in Santa Clara, Houston, Paris)",
+    "yearFounded": 2002,
+    "operatingModel": "Strategic Advisory, GCC Maturity Framework (GAP), Location Analysis",
+    "verifiedGccsEstablished": "Advisory partner to 250+ enterprise GCCs; co-author of NASSCOM GCC Landscape",
+    "confirmedPublicClients": [
+      "Intel India (Strategy benchmarking)",
+      "Dell Technologies (GIC maturity modeling)",
+      "NetApp India (R&D scaling review)",
+      "Schneider Electric (Center transformation)"
+    ],
+    "verifiedCapabilities": [
+      "GCC 4-Tier Maturity Framework (Outpost → Transformation Hub)",
+      "Total Cost of Operations (TCO) cross-city benchmarking",
+      "ER&D engineering capability roadmap design",
+      "NASSCOM annual industry baseline publisher"
+    ],
+    "pricingModel": "Fixed-fee strategy engagements ($75,000–$250,000) + GAP Platform data retainers",
+    "officialSources": [
+      {
+        "publisher": "Zinnov Official Practice Disclosures",
+        "url": "https://zinnov.com",
+        "date": "2024-04-15",
+        "note": "Advisory practice details and co-authorship of NASSCOM-Zinnov GCC Landscape reports."
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "prov_jll",
+    "name": "JLL India (Jones Lang LaSalle)",
+    "category": "Commercial Real Estate & GCC Tenant Representation",
+    "headquarters": "Mumbai / Pan-India Real Estate Practice",
+    "yearFounded": 1998,
+    "operatingModel": "Exclusive Tenant Rep Brokerage, Site Selection, Project Fit-out Management",
+    "verifiedGccsEstablished": "Managed over 45 Million sq ft of GCC leasing across Bengaluru, Hyderabad, and Pune",
+    "confirmedPublicClients": [
+      "JPMorgan Chase (Multiple pan-India campus leases)",
+      "Google India (Real estate transaction advisory)",
+      "Amazon Development Center (Hyderabad campus)",
+      "HSBC Electronic Data Processing"
+    ],
+    "verifiedCapabilities": [
+      "Micro-market lease negotiations & tenant representation",
+      "Fit-out project management & sustainable LEED certification",
+      "Grade-A office vacancy tracking and off-market developer negotiations"
+    ],
+    "pricingModel": "Standard landlord/tenant brokerage commission (1–2 months' lease value) + Project Management consultancy fee",
+    "officialSources": [
+      {
+        "publisher": "JLL India Commercial Real Estate Reports",
+        "url": "https://jll.co.in",
+        "date": "2024-06-01",
+        "note": "Audited transaction records for Grade-A office absorption by MNC Global Capability Centres."
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "prov_cyril_amarchand",
+    "name": "Cyril Amarchand Mangaldas (CAM)",
+    "category": "Corporate Law, ROC Incorporation & Regulatory Advisory",
+    "headquarters": "Mumbai (Offices in Bengaluru, New Delhi, Hyderabad, Chennai)",
+    "yearFounded": 2015,
+    "operatingModel": "Legal Advisory, FEMA/RBI Compliance, Employment Law & Real Estate Leases",
+    "verifiedGccsEstablished": "Legal counsel for 80+ MNC India entries and captive incorporations",
+    "confirmedPublicClients": [
+      "Major Fortune 500 US Technology & BFSI MNCs (Represented under standard legal practice disclosures)"
+    ],
+    "verifiedCapabilities": [
+      "FEMA / RBI cross-border capitalization & equity structuring",
+      "State GCC incentive filings and statutory clearance representation",
+      "Employment contracts, non-compete defensibility, and IP transfer structuring",
+      "Long-term commercial lease due diligence"
+    ],
+    "pricingModel": "Hourly partner billing (₹25,000–₹55,000/hr) or fixed transaction retainer (₹15L–₹40L per incorporation)",
+    "officialSources": [
+      {
+        "publisher": "Cyril Amarchand Mangaldas Corporate Law Practice",
+        "url": "https://cyrilamarchandblogs.com",
+        "date": "2024-02-10",
+        "note": "Published legal advisories on State GCC Policies and inbound foreign subsidiary establishment."
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "prov_deel",
+    "name": "Deel India",
+    "category": "Employer of Record (EOR) & Multi-Country Payroll",
+    "headquarters": "Global HQ: San Francisco, CA | India Entity: Bengaluru",
+    "yearFounded": 2019,
+    "operatingModel": "Direct Indian Entity Employer of Record (EOR), Global Payroll Platform",
+    "verifiedGccsEstablished": "Enables rapid Day-1 hiring in India without waiting 4-6 months for ROC subsidiary incorporation",
+    "confirmedPublicClients": [
+      "Over 500 venture-backed global firms and mid-market enterprises deploying initial India pods"
+    ],
+    "verifiedCapabilities": [
+      "100% compliant statutory benefits administration (EPF, ESI, Professional Tax, TDS)",
+      "Direct owned Indian legal entity (no third-party staffing aggregator intermediaries)",
+      "Contract-to-captive transfer facilitation once local entity incorporation concludes"
+    ],
+    "pricingModel": "Transparent SaaS fee: $599 per employee per month (PEPM) for complete EOR services",
+    "officialSources": [
+      {
+        "publisher": "Deel Official Platform Documentation",
+        "url": "https://www.deel.com",
+        "date": "2024-01-01",
+        "note": "Direct Indian entity EOR statutory compliance framework and pricing documentation."
+      }
+    ],
+    "confidence": "high"
+  }
+]

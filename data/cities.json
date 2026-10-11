@@ -1,0 +1,158 @@
+[
+  {
+    "id": "bengaluru",
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "gccCount": 875,
+    "totalHeadcount": 700000,
+    "gradeARentRange": { "min": 70, "max": 140, "unit": "INR_sqft_month" },
+    "avgRent": 93,
+    "talentCostIndex": 1.15,
+    "topSectors": ["Technology", "Semiconductors", "Aerospace & Defense", "Retail Tech"],
+    "microMarkets": ["Outer Ring Road (ORR)", "Whitefield", "Electronic City", "Manyata Tech Park"],
+    "gccClusters": ["Bellandur-Kadubeesanahalli", "ITPB Whitefield", "Electronic City Phase 1"],
+    "keyStrengths": ["Deepest R&D and AI talent pool in India", "Unrivaled tech ecosystem", "MNC engineering prestige"],
+    "primaryChallenge": "Peak infrastructure congestion and competitive talent poaching",
+    "sources": [
+      {
+        "url": "https://nasscom.in",
+        "publisher": "NASSCOM-Zinnov",
+        "date": "2024-03-31",
+        "note": "Bengaluru hosts ~35-40% of total India GCC footprint"
+      },
+      {
+        "url": "https://cbre.co.in",
+        "publisher": "CBRE India Office Figures",
+        "date": "2024-06-30",
+        "note": "Average Grade A rent ₹93/sq ft/month with ORR commanding up to ₹140+"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "gccCount": 520,
+    "totalHeadcount": 425000,
+    "gradeARentRange": { "min": 60, "max": 100, "unit": "INR_sqft_month" },
+    "avgRent": 67,
+    "talentCostIndex": 0.95,
+    "topSectors": ["Life Sciences", "BFSI Tech", "Cloud & Enterprise Software", "Hardware"],
+    "microMarkets": ["HITEC City", "Gachibowli", "Financial District (Kokapet)", "Genome Valley"],
+    "gccClusters": ["Raidurg Mindspace", "Nanakramguda Financial Dist", "Genome Valley Pharma Hub"],
+    "keyStrengths": ["Proactive TS-iPASS single-window approvals", "Top tier planned civic infrastructure", "Life Sciences global capital"],
+    "primaryChallenge": "Narrowing cost arbitrage with Bengaluru in high-end tech",
+    "sources": [
+      {
+        "url": "https://investtelangana.in",
+        "publisher": "Invest Telangana & ITE&C",
+        "date": "2024-06-01",
+        "note": "Hosts over 355+ large global capability centers, second largest IT exporter in India"
+      },
+      {
+        "url": "https://jll.co.in",
+        "publisher": "JLL India Office Market Dynamics",
+        "date": "2024-04-15",
+        "note": "Grade A quoted rents averaging ₹67-75/sq ft/month"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pune",
+    "name": "Pune",
+    "state": "Maharashtra",
+    "gccCount": 170,
+    "totalHeadcount": 225000,
+    "gradeARentRange": { "min": 55, "max": 100, "unit": "INR_sqft_month" },
+    "avgRent": 81,
+    "talentCostIndex": 0.90,
+    "topSectors": ["Automotive ER&D", "Industrial IoT", "BFSI Shared Services", "Manufacturing Software"],
+    "microMarkets": ["Hinjewadi (Phases 1-3)", "Kharadi (EON IT Park)", "Viman Nagar", "Magarpatta City"],
+    "gccClusters": ["Kharadi Waterfront", "Rajiv Gandhi Infotech Park Hinjewadi"],
+    "keyStrengths": ["Automotive & engineering legacy capital", "Proximity to Mumbai financial hub", "High talent retention rate"],
+    "primaryChallenge": "Internal city transit constraints between Hinjewadi and East Pune",
+    "sources": [
+      {
+        "url": "https://nasscom.in",
+        "publisher": "NASSCOM ER&D Landscape",
+        "date": "2024-02-28",
+        "note": "Pune hosts 15-20% of national GCC activity, dominated by ER&D and BFSI"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "chennai",
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "gccCount": 245,
+    "totalHeadcount": 213000,
+    "gradeARentRange": { "min": 55, "max": 95, "unit": "INR_sqft_month" },
+    "avgRent": 75,
+    "talentCostIndex": 0.88,
+    "topSectors": ["Automotive Engineering", "BFSI FinTech", "SaaS & Enterprise", "Hardware R&D"],
+    "microMarkets": ["Old Mahabalipuram Road (OMR)", "Mount Poonamallee Road (MPR)", "Guindy"],
+    "gccClusters": ["OMR Pre-toll & Sholinganallur", "DLF Cybercity Manapakkam"],
+    "keyStrengths": ["State payroll subsidy scheme (30-20-10%)", "Highest engineering graduate density", "Cost discipline"],
+    "primaryChallenge": "Historically slower real estate absorption compared to Bengaluru/Hyderabad",
+    "sources": [
+      {
+        "url": "https://guidancetamilnadu.com",
+        "publisher": "Guidance Tamil Nadu GCC Special Scheme",
+        "date": "2024-04-01",
+        "note": "213,000+ GCC workforce with 95k added in FY24"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "delhi-ncr",
+    "name": "Delhi-NCR (Gurugram & Noida)",
+    "state": "Haryana / Uttar Pradesh",
+    "gccCount": 490,
+    "totalHeadcount": 380000,
+    "gradeARentRange": { "min": 55, "max": 160, "unit": "INR_sqft_month" },
+    "avgRent": 86,
+    "talentCostIndex": 1.05,
+    "topSectors": ["BFSI", "Consulting & Professional Services", "E-Commerce", "Telecom"],
+    "microMarkets": ["DLF Cyber City Gurugram", "Golf Course Road", "Noida Expressway Sector 125-135"],
+    "gccClusters": ["Cyber Hub Gurugram", "Sector 62 / Expressway Noida"],
+    "keyStrengths": ["Direct proximity to central regulatory bodies & embassies", "Massive corporate headquarters presence", "World-class metro network"],
+    "primaryChallenge": "Extreme dispersion between Gurugram and Noida talent basins",
+    "sources": [
+      {
+        "url": "https://cbre.co.in",
+        "publisher": "CBRE NCR Real Estate",
+        "date": "2024-05-10",
+        "note": "NCR hosts ~490 GCC units; Gurugram represents 65% share"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai (MMR)",
+    "state": "Maharashtra",
+    "gccCount": 320,
+    "totalHeadcount": 290000,
+    "gradeARentRange": { "min": 75, "max": 280, "unit": "INR_sqft_month" },
+    "avgRent": 140,
+    "talentCostIndex": 1.20,
+    "topSectors": ["Investment Banking & Global Markets", "Asset Management", "FinTech", "Risk Analytics"],
+    "microMarkets": ["Bandra Kurla Complex (BKC)", "Goregaon Nirlon Knowledge Park", "Airoli & Navi Mumbai"],
+    "gccClusters": ["BKC Financial Core", "Mindspace Airoli"],
+    "keyStrengths": ["Unmatched capital markets & quant finance talent", "Proximity to RBI/SEBI regulators", "Institutional prestige"],
+    "primaryChallenge": "Highest commercial real estate and residential living cost in India",
+    "sources": [
+      {
+        "url": "https://jll.co.in",
+        "publisher": "JLL India BFSI Snapshot",
+        "date": "2024-06-15",
+        "note": "Mumbai commands 32.4% BFSI focus across its 300+ GCC operational centres"
+      }
+    ],
+    "confidence": "high"
+  }
+]
