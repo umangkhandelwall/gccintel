@@ -146,9 +146,8 @@ export const Navbar = () => {
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
         <div className="lg:hidden border-b border-[#E8E5DE] bg-[#FDFBF7] px-4 py-3 space-y-1 shadow-md max-h-[80vh] overflow-y-auto">
-          <div className="pb-2 mb-2 border-b border-[#E8E5DE] flex items-center justify-between">
+          <div className="pb-2 mb-2 border-b border-[#E8E5DE]">
             <span className="text-xs font-bold text-[#14171A]">Platform Navigation</span>
-            <ThemeToggle />
           </div>
 
           {[...primaryLinks, ...secondaryLinks].map((link) => {
