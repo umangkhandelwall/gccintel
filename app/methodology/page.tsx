@@ -11,7 +11,7 @@ import {
 
 export default function MethodologyPage() {
   return (
-    <div className="max-w-4xl mx-auto space-y-10">
+    <div className="max-w-4xl mx-auto space-y-8 sm:space-y-10">
       {/* Editorial Header */}
       <div className="space-y-2 border-b border-[#E8E5DE] pb-6">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#F0EDE6] text-[#16423C] border border-[#E0DCD3]">
@@ -31,7 +31,7 @@ export default function MethodologyPage() {
         <h2 className="text-xl font-bold text-[#14171A] font-editorial">
           1. The Definitional Standard: Entity vs. Unit
         </h2>
-        <div className="p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-3 text-xs leading-relaxed text-[#5E646A]">
+        <div className="p-4 sm:p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-3 text-xs leading-relaxed text-[#5E646A]">
           <p>
             The single largest cause of confusion in the Indian GCC market is the casual conflation of <strong className="text-[#14171A]">Unique Corporate Entities</strong> with <strong className="text-[#14171A]">Physical Operational Units</strong>.
           </p>
@@ -60,7 +60,7 @@ export default function MethodologyPage() {
         <h2 className="text-xl font-bold text-[#14171A] font-editorial">
           2. What &quot;Verified&quot; Means on this Platform
         </h2>
-        <div className="p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-4 text-xs text-[#5E646A] leading-relaxed">
+        <div className="p-4 sm:p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-4 text-xs text-[#5E646A] leading-relaxed">
           <p>
             Every record on GCC Intel carries a strict verification flag with defined criteria:
           </p>
@@ -107,69 +107,71 @@ export default function MethodologyPage() {
         </div>
       </section>
 
-      {/* Dataset Freshness & Last Updated Register */}
+      {/* Dataset Freshness & Last Updated Register - Horizontal Scroll wrapper for Mobile */}
       <section className="space-y-4">
         <h2 className="text-xl font-bold text-[#14171A] font-editorial">
           3. Dataset Freshness & Audit Register
         </h2>
         <div className="bg-white border border-[#E8E5DE] rounded-xl overflow-hidden shadow-xs text-xs">
-          <table className="w-full text-left">
-            <thead className="bg-[#F7F5F0] border-b border-[#E8E5DE] text-[#5E646A] font-medium">
-              <tr>
-                <th className="p-3">Dataset Module</th>
-                <th className="p-3">Coverage Scope</th>
-                <th className="p-3">Primary Authoritative Sources</th>
-                <th className="p-3">Last Updated</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-[#E8E5DE] text-[#14171A]">
-              <tr>
-                <td className="p-3 font-semibold">GCC Registry</td>
-                <td className="p-3 text-[#5E646A]">30 Profiled Captives (Sample of 2,117)</td>
-                <td className="p-3 text-[#5E646A]">MCA-21 ROC Filings, Company Newsrooms</td>
-                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-semibold">Count Reconciliation</td>
-                <td className="p-3 text-[#5E646A]">National Macro Totals (Entities vs Units)</td>
-                <td className="p-3 text-[#5E646A]">Zinnov-NASSCOM FY26 & FY24 Studies</td>
-                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-semibold">City Comparator</td>
-                <td className="p-3 text-[#5E646A]">6 Metros Grade-A Rents & Tech Talent</td>
-                <td className="p-3 text-[#5E646A]">CBRE India & JLL Office Market Reports</td>
-                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-semibold">State Policy Gazettes</td>
-                <td className="p-3 text-[#5E646A]">5 State Legal Incentive Frameworks</td>
-                <td className="p-3 text-[#5E646A]">Official State IT Policy Gazettes (TN, KA, TS, MH, GJ)</td>
-                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-semibold">Recent Entrants Pipeline</td>
-                <td className="p-3 text-[#5E646A]">2026 Setup & Leasing Signals</td>
-                <td className="p-3 text-[#5E646A]">State MoUs, Micro-Market Lease Registrations</td>
-                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-semibold">Service Providers Directory</td>
-                <td className="p-3 text-[#5E646A]">Setup Advisors, Real Estate, Law, EOR</td>
-                <td className="p-3 text-[#5E646A]">Company Public Practice Disclosures</td>
-                <td className="p-3 font-mono text-[#16423C]">October 2026</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="overflow-x-auto w-full">
+            <table className="w-full text-left min-w-[560px]">
+              <thead className="bg-[#F7F5F0] border-b border-[#E8E5DE] text-[#5E646A] font-medium">
+                <tr>
+                  <th className="p-3 whitespace-nowrap">Dataset Module</th>
+                  <th className="p-3 whitespace-nowrap">Coverage Scope</th>
+                  <th className="p-3 whitespace-nowrap">Primary Authoritative Sources</th>
+                  <th className="p-3 whitespace-nowrap">Last Updated</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[#E8E5DE] text-[#14171A]">
+                <tr>
+                  <td className="p-3 font-semibold whitespace-nowrap">GCC Registry</td>
+                  <td className="p-3 text-[#5E646A]">30 Profiled Captives (Sample of 2,117)</td>
+                  <td className="p-3 text-[#5E646A]">MCA-21 ROC Filings, Company Newsrooms</td>
+                  <td className="p-3 font-mono text-[#16423C] whitespace-nowrap">October 2026</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold whitespace-nowrap">Count Reconciliation</td>
+                  <td className="p-3 text-[#5E646A]">National Macro Totals (Entities vs Units)</td>
+                  <td className="p-3 text-[#5E646A]">Zinnov-NASSCOM FY26 & FY24 Studies</td>
+                  <td className="p-3 font-mono text-[#16423C] whitespace-nowrap">October 2026</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold whitespace-nowrap">City Comparator</td>
+                  <td className="p-3 text-[#5E646A]">6 Metros Grade-A Rents & Tech Talent</td>
+                  <td className="p-3 text-[#5E646A]">CBRE India & JLL Office Market Reports</td>
+                  <td className="p-3 font-mono text-[#16423C] whitespace-nowrap">October 2026</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold whitespace-nowrap">State Policy Gazettes</td>
+                  <td className="p-3 text-[#5E646A]">5 State Legal Incentive Frameworks</td>
+                  <td className="p-3 text-[#5E646A]">Official State IT Policy Gazettes (TN, KA, TS, MH, GJ)</td>
+                  <td className="p-3 font-mono text-[#16423C] whitespace-nowrap">October 2026</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold whitespace-nowrap">Recent Entrants Pipeline</td>
+                  <td className="p-3 text-[#5E646A]">2026 Setup & Leasing Signals</td>
+                  <td className="p-3 text-[#5E646A]">State MoUs, Micro-Market Lease Registrations</td>
+                  <td className="p-3 font-mono text-[#16423C] whitespace-nowrap">October 2026</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold whitespace-nowrap">Service Providers Directory</td>
+                  <td className="p-3 text-[#5E646A]">Setup Advisors, Real Estate, Law, EOR</td>
+                  <td className="p-3 text-[#5E646A]">Company Public Practice Disclosures</td>
+                  <td className="p-3 font-mono text-[#16423C] whitespace-nowrap">October 2026</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
       {/* Scope Boundaries */}
       <section className="space-y-4">
         <h2 className="text-xl font-bold text-[#14171A] font-editorial">
-          3. Inclusion & Exclusion Boundaries
+          4. Inclusion & Exclusion Boundaries
         </h2>
-        <div className="p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-3 text-xs text-[#5E646A] leading-relaxed">
+        <div className="p-4 sm:p-6 bg-white border border-[#E8E5DE] rounded-xl shadow-xs space-y-3 text-xs text-[#5E646A] leading-relaxed">
           <ul className="space-y-2 list-disc pl-4 text-[#14171A]">
             <li>
               <strong>Excluded:</strong> Pure-play third-party IT outsourcers, BPO service providers (e.g., Genpact, WNS), and external professional services practices (e.g., Deloitte consulting delivery centers) are excluded from the captive GCC registry to maintain definitional purity.
@@ -184,11 +186,11 @@ export default function MethodologyPage() {
       {/* Conflict Disclosure */}
       <section className="space-y-4">
         <h2 className="text-xl font-bold text-[#14171A] font-editorial">
-          4. Ecosystem Conflict of Interest Disclosures
+          5. Ecosystem Conflict of Interest Disclosures
         </h2>
-        <div className="p-6 bg-[#FFF8E1] border border-[#FFE082] rounded-xl space-y-2 text-xs text-[#E65100] leading-relaxed">
+        <div className="p-4 sm:p-6 bg-[#FFF8E1] border border-[#FFE082] rounded-xl space-y-2 text-xs text-[#E65100] leading-relaxed">
           <div className="font-bold text-sm text-[#F57F17] flex items-center gap-1.5">
-            <AlertTriangle className="w-4 h-4" />
+            <AlertTriangle className="w-4 h-4 shrink-0" />
             <span>Zinnov Dual-Role Conflict Note</span>
           </div>
           <p>

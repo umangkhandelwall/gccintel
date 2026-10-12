@@ -16,6 +16,7 @@ import {
   X,
   ChevronDown
 } from 'lucide-react';
+import { ThemeToggle } from './ThemeToggle';
 
 export const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ export const Navbar = () => {
   const isSecondaryActive = secondaryLinks.some(link => pathname === link.href);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[#E8E5DE] bg-[#FDFBF7]/95 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-[#E8E5DE] bg-[#FDFBF7]/95 backdrop-blur-md transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand */}
         <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
@@ -119,30 +120,37 @@ export const Navbar = () => {
           </div>
         </nav>
 
-        {/* Right CTA */}
-        <div className="hidden sm:flex items-center gap-2">
+        {/* Right Actions: Theme Toggle + Estimator CTA */}
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+
           <Link
             href="/calculator"
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-md bg-[#16423C] hover:bg-[#2D6A4F] text-white text-xs font-semibold transition shadow-xs whitespace-nowrap"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-md bg-[#16423C] hover:bg-[#2D6A4F] text-white text-xs font-semibold transition shadow-xs whitespace-nowrap"
           >
             <Calculator className="w-3.5 h-3.5" />
             <span>Setup Estimator</span>
           </Link>
-        </div>
 
-        {/* Mobile menu button */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden p-2 rounded-md text-[#4A5056] hover:text-[#14171A] hover:bg-[#F0EDE6]"
-          aria-label="Toggle Navigation"
-        >
-          {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-        </button>
+          {/* Mobile menu hamburger button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="lg:hidden p-2 rounded-md text-[#4A5056] hover:text-[#14171A] hover:bg-[#F0EDE6]"
+            aria-label="Toggle Navigation"
+          >
+            {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden border-b border-[#E8E5DE] bg-[#FDFBF7] px-4 py-3 space-y-1">
+        <div className="lg:hidden border-b border-[#E8E5DE] bg-[#FDFBF7] px-4 py-3 space-y-1 shadow-md max-h-[80vh] overflow-y-auto">
+          <div className="pb-2 mb-2 border-b border-[#E8E5DE] flex items-center justify-between">
+            <span className="text-xs font-bold text-[#14171A]">Platform Navigation</span>
+            <ThemeToggle />
+          </div>
+
           {[...primaryLinks, ...secondaryLinks].map((link) => {
             const isActive = pathname === link.href;
             return (
@@ -150,9 +158,9 @@ export const Navbar = () => {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`flex items-center justify-between px-3 py-2 rounded-md text-xs font-medium ${
+                className={`flex items-center justify-between px-3 py-2.5 rounded-md text-xs font-medium transition ${
                   isActive
-                    ? 'bg-[#16423C] text-white'
+                    ? 'bg-[#16423C] text-white font-semibold'
                     : 'text-[#4A5056] hover:text-[#14171A] hover:bg-[#F0EDE6]'
                 }`}
               >
@@ -160,6 +168,17 @@ export const Navbar = () => {
               </Link>
             );
           })}
+
+          <div className="pt-2 mt-2 border-t border-[#E8E5DE]">
+            <Link
+              href="/calculator"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full py-2.5 px-3 rounded-lg bg-[#16423C] text-white text-xs font-semibold flex items-center justify-center gap-2"
+            >
+              <Calculator className="w-4 h-4" />
+              <span>Launch Setup Cost Estimator</span>
+            </Link>
+          </div>
         </div>
       )}
     </header>

@@ -1,16 +1,168 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #fdfbf7;
   --foreground: #14171a;
+  --card-bg: #ffffff;
+  --card-border: #e8e5de;
+  --muted-text: #5e646a;
+  --subtle-bg: #f7f5f0;
+  --pill-bg: #f0ede6;
+}
+
+.dark {
+  --background: #0d1117;
+  --foreground: #f0f6fc;
+  --card-bg: #161b22;
+  --card-border: #30363d;
+  --muted-text: #8b949e;
+  --subtle-bg: #1c2128;
+  --pill-bg: #21262d;
 }
 
 body {
   color: var(--foreground);
   background-color: var(--background);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .font-editorial {
   font-family: "Newsreader", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Custom dark mode overrides for utility classes */
+.dark body {
+  background-color: #0d1117 !important;
+  color: #f0f6fc !important;
+}
+
+.dark header {
+  background-color: rgba(13, 17, 23, 0.95) !important;
+  border-color: #30363d !important;
+}
+
+.dark footer {
+  background-color: #161b22 !important;
+  border-color: #30363d !important;
+  color: #8b949e !important;
+}
+
+.dark .bg-white {
+  background-color: #161b22 !important;
+}
+
+.dark .bg-\[\#FDFBF7\] {
+  background-color: #0d1117 !important;
+}
+
+.dark .bg-\[\#FDFBF7\]\/95 {
+  background-color: rgba(13, 17, 23, 0.95) !important;
+}
+
+.dark .bg-\[\#F7F5F0\] {
+  background-color: #1c2128 !important;
+}
+
+.dark .bg-\[\#F0EDE6\] {
+  background-color: #21262d !important;
+}
+
+.dark .border-\[\#E8E5DE\] {
+  border-color: #30363d !important;
+}
+
+.dark .border-\[\#E0DCD3\],
+.dark .border-\[\#DCD7CE\],
+.dark .border-\[\#C4BFB5\] {
+  border-color: #30363d !important;
+}
+
+.dark .text-\[\#14171A\] {
+  color: #f0f6fc !important;
+}
+
+.dark .text-\[\#4A5056\],
+.dark .text-\[\#5E646A\] {
+  color: #8b949e !important;
+}
+
+.dark .text-\[\#8B929A\] {
+  color: #6e7681 !important;
+}
+
+.dark input,
+.dark select {
+  background-color: #1c2128 !important;
+  color: #f0f6fc !important;
+  border-color: #30363d !important;
+}
+
+.dark input::placeholder {
+  color: #6e7681 !important;
+}
+
+.dark tr:hover {
+  background-color: #1f242c !important;
+}
+
+.dark thead {
+  background-color: #1c2128 !important;
+  border-color: #30363d !important;
+  color: #8b949e !important;
+}
+
+.dark thead th {
+  color: #8b949e !important;
+}
+
+.dark .divide-\[\#E8E5DE\] > * + * {
+  border-color: #30363d !important;
+}
+
+/* Callouts in Dark Mode */
+.dark .bg-\[\#E8F5E9\] {
+  background-color: rgba(46, 125, 50, 0.15) !important;
+  border-color: rgba(46, 125, 50, 0.35) !important;
+}
+
+.dark .text-\[\#2E7D32\],
+.dark .text-\[\#1B5E20\] {
+  color: #4ade80 !important;
+}
+
+.dark .bg-\[\#FFF8E1\] {
+  background-color: rgba(245, 127, 23, 0.15) !important;
+  border-color: rgba(245, 127, 23, 0.35) !important;
+}
+
+.dark .text-\[\#F57F17\],
+.dark .text-\[\#E65100\],
+.dark .text-\[\#B78103\] {
+  color: #fcd34d !important;
+}
+
+.dark .bg-\[\#FFEBEE\],
+.dark .bg-\[\#FBE9E7\],
+.dark .bg-\[\#FFFBFA\] {
+  background-color: rgba(198, 40, 40, 0.15) !important;
+  border-color: rgba(198, 40, 40, 0.35) !important;
+}
+
+.dark .text-\[\#C62828\],
+.dark .text-\[\#D84315\],
+.dark .text-\[\#BF360C\] {
+  color: #f87171 !important;
+}
+
+/* Mobile responsive enhancements */
+@media (max-width: 640px) {
+  table {
+    font-size: 11px;
+  }
+  th, td {
+    padding: 8px 10px !important;
+  }
 }
